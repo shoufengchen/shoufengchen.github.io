@@ -52,6 +52,56 @@ Finance internship periods
 :::
 :::
 
+## Featured Work
+
+[Three projects that best represent how I combine technical analysis with business decision-making.]{.section-lead}
+
+::: {.featured-grid}
+
+::: {.featured-card}
+[01 · CLOUD ANALYTICS]{.feature-kicker}
+
+### Employability Analytics
+
+[815,193]{.feature-number}
+
+[job postings analyzed]{.feature-unit}
+
+PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-data workflow.
+
+[View project →](projects.html#employability-analytics){.feature-link}
+:::
+
+::: {.featured-card}
+[02 · MACHINE LEARNING]{.feature-kicker}
+
+### Property Valuation
+
+[69,121]{.feature-number}
+
+[cleaned property records]{.feature-unit}
+
+Multiple predictive models compared through cross-validation; Random Forest delivered the strongest validation performance.
+
+[View project →](projects.html#property-valuation-modeling){.feature-link}
+:::
+
+::: {.featured-card}
+[03 · FINANCIAL STRATEGY]{.feature-kicker}
+
+### Microbrewery Feasibility
+
+[$150K]{.feature-number}
+
+[investment evaluated]{.feature-unit}
+
+Strategy, operating forecasts, break-even, ROI, payback, and sensitivity analysis combined into an investment decision framework.
+
+[View project →](projects.html#microbrewery-investment-feasibility){.feature-link}
+:::
+
+:::
+
 ## Profile
 
 I am pursuing a **Master of Science in Applied Business Analytics at Boston University** after completing a Bachelor of Commerce in **Finance and Marketing at Curtin University**. My work combines business decision-making with Python, SQL, PySpark, cloud infrastructure, financial analysis, and machine learning.
