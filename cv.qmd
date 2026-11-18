@@ -98,6 +98,7 @@ Strategy backtesting, factor screening, DCF valuation, sensitivity analysis, clu
 
 - Evaluating a $150,000 microbrewery investment for a Boston restaurant using PESTEL, Five Forces, VRIO, SWOT, and market research to assess strategy and feasibility.
 - Developing three-year financial and operating forecasts, ROI/payback metrics, and an implementation roadmap to inform a go/no-go investment recommendation (in progress).
+- [View the AD715 case study →](ad715.html)
 :::
 
 ::: {.cv-entry}

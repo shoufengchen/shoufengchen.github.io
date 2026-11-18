@@ -83,7 +83,7 @@ PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-dat
 
 Strategy, operating forecasts, break-even, ROI, payback, and sensitivity analysis combined into an investment decision framework.
 
-[View project →](projects.html#microbrewery-investment-feasibility){.feature-link}
+[View project →](ad715.html){.feature-link}
 :::
 
 ::: {.featured-card}

@@ -147,6 +147,8 @@ A structured go/no-go framework combining strategy, operations, and financial fe
 [Strategy]{.tech-badge}
 [Sensitivity Analysis]{.tech-badge}
 :::
+
+[View full AD715 case study →](ad715.html){.btn .btn-sm .btn-outline-primary}
 :::
 
 ::: {.project-card}

@@ -1,0 +1,252 @@
+---
+title: "Microbrewery Investment Feasibility"
+subtitle: "A $150,000 operating and investment decision for a Boston restaurant"
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+[BU MET AD715 · Quantitative and Qualitative Decision-Making · 2026]{.eyebrow}
+
+# Should the restaurant invest in an automated microbrewery?
+
+This project evaluates whether a Boston restaurant should proceed with a **$150,000 installed automated brewing system**. The analysis combines strategy, demand and capacity planning, channel economics, break-even analysis, financing assumptions, and simulation outputs to distinguish a promising operating scenario from a financeable investment decision.
+
+::: {.case-metrics}
+::: {.case-metric}
+[$150K]{.case-value}
+[installed system]{.case-label}
+:::
+::: {.case-metric}
+[91,719]{.case-value}
+[Cycle 3 operating break-even pints]{.case-label}
+:::
+::: {.case-metric}
+[31,383.73]{.case-value}
+[FY1 modeled unmet pints]{.case-label}
+:::
+:::
+
+::: {.badge-row}
+[Strategy]{.tech-badge}
+[Financial Modeling]{.tech-badge}
+[Capacity Planning]{.tech-badge}
+[Break-Even]{.tech-badge}
+[Sensitivity Analysis]{.tech-badge}
+[B-SIM]{.tech-badge}
+:::
+
+## Decision context
+
+The proposed system includes **eight 155-gallon tanks**, a theoretical annual capacity of **476,160 pints**, and a **30-day refrigerated shelf life**. The restaurant would sell five beers through its dining operation and two products through a separate wholesale channel.
+
+The central question is not whether the restaurant itself can be profitable. It is whether the **incremental contribution and cash flow created by the brewery** can justify the new equipment, staffing, marketing, storage, financing, and operating risk.
+
+## Strategy before simulation
+
+The project uses **SWOT, PESTEL, and Porter's Five Forces** to frame the launch before relying on financial outputs.
+
+::: {.stage-grid}
+::: {.stage-card}
+### Market position
+
+Launch through the restaurant first, where existing diners provide a lower-friction environment for trial, feedback, and repeat-purchase measurement.
+:::
+
+::: {.stage-card}
+### Channel design
+
+Treat retail and wholesale as separate businesses. Retail sells at higher contribution per pint; wholesale may extend reach but carries lower unit economics and distribution constraints.
+:::
+
+::: {.stage-card}
+### Decision discipline
+
+Use B-SIM outputs as scenario evidence, not as proof of realized demand, realized ROI, or guaranteed customer acceptance.
+:::
+:::
+
+## Capacity and product economics
+
+### Demand exceeds modeled supply
+
+In FY1, modeled demand totals **394,703.73 pints** while modeled supply totals **363,320.00 pints**, creating an annual gap of **31,383.73 pints**, or approximately **7.95%**.
+
+The strongest retail constraint is **Light Wheat**, where **5,674.30 of 24,274.30 pints of demand are unmet**, equal to **23.38%**.
+
+::: {.code-proof}
+**Operational implication**
+
+Annual shortage percentages are not enough to authorize more production. The eight tanks, cleaning/changeover time, seasonal demand, and 30-day storage limit require a month-by-month production schedule.
+:::
+
+### Retail volume is much more valuable than wholesale volume
+
+A critical finding from Cycle 3 is that retail represents only **39.59% of modeled sold volume** but generates **90.74% of modeled contribution**.
+
+That result changes the operating objective. The restaurant should not maximize total pints. It should protect the **highest-contribution use of constrained tank capacity**.
+
+::: {.case-metrics}
+::: {.case-metric}
+[39.59%]{.case-value}
+[FY1 retail volume share]{.case-label}
+:::
+::: {.case-metric}
+[90.74%]{.case-value}
+[FY1 retail contribution share]{.case-label}
+:::
+::: {.case-metric}
+[23.38%]{.case-value}
+[Light Wheat unmet demand]{.case-label}
+:::
+:::
+
+## Financial model
+
+### Incremental fixed-cost base
+
+The FY1 planning case contains **$291,660** of incremental operating fixed expense:
+
+- Employees: **$122,000**
+- G&A: **$39,260**, including **$22,000 noncash depreciation**
+- Marketing: **$120,400**
+- Additional storage rent: **$10,000**
+
+The financing sensitivity assumes a **$150,000 loan at 10% over 60 months**, producing approximately **$38,244.68 in annual payments**.
+
+### Break-even
+
+Using the final Cycle 3 mix, FY1 contribution is **$1,155,332.80** on **363,320 pints**, or approximately **$3.1799 contribution per pint**.
+
+```python
+fixed_cost = 291_660
+fy1_contribution = 1_155_332.80
+fy1_volume = 363_320
+
+contribution_per_pint = fy1_contribution / fy1_volume
+break_even_pints = fixed_cost / contribution_per_pint
+
+# ≈ 91,719 pints after rounding up
+```
+
+The recalculated **Cycle 3 operating break-even is 91,719 pints**. Projected FY1 sales are approximately **3.96×** that operating threshold.
+
+The report also tests downside exposure:
+
+| Decision case | Break-even / coverage pints | Interpretation |
+|---|---:|---|
+| Planning operating case | 89,150 | Initial illustrative channel mix |
+| Cycle 3 operating case | **91,719** | Final simulated sales mix |
+| Cycle 3 simplified cash coverage | **96,828** | Adds loan payments, removes noncash depreciation |
+| Adverse case | **108,960** | Fixed costs +10%, unit contribution -10% |
+
+These are decision thresholds, not asset payback periods.
+
+## Simulated financial performance
+
+Cycle 3 produces favorable modeled earnings:
+
+| Metric | FY1 | FY2 | FY3 |
+|---|---:|---:|---:|
+| Revenue | $1,509,266 | $1,546,156 | $1,624,462 |
+| Gross profit | $1,155,332.80 | $1,185,105.20 | $1,261,228.80 |
+| Net income after tax | $599,921.16 | $615,387.75 | $661,758.12 |
+
+Across three years, the simulation reports:
+
+- **$4,679,884** revenue
+- **$3,601,666.80** contribution
+- **$1,877,067.03** modeled net profit
+
+However, those results do **not** establish the brewery's realized incremental free cash flow or its actual equipment ROI. B-SIM includes the full loan payment in its scenario expense calculation, while conventional investment appraisal should distinguish interest, principal, working capital, taxes, and cannibalization of existing beverage sales.
+
+## ROI and payback discipline
+
+The project uses **30% expected ROI** as an owner-defined annual cash-return target on the $150,000 system.
+
+That target implies:
+
+- Required annual incremental cash flow: **$45,000**
+- Simple payback under flat $45,000 annual cash flow: **3.33 years**
+
+These are **targets**, not achieved results.
+
+The analysis therefore separates:
+
+**Operating break-even**  
+from  
+**Debt-service cash coverage**  
+from  
+**Asset payback / cash ROI**.
+
+This distinction prevents a common decision error: treating a simulator's revenue break-even or net margin as proof that the capital investment has paid back.
+
+## Risk and sensitivity
+
+The final recommendation explicitly tests what could weaken the investment case:
+
+::: {.skill-grid}
+::: {.skill-card}
+### Supplier concentration
+
+The Beer Master system creates dependence on a single equipment and ingredient supplier. Service terms, replacement parts, and pricing should be contractually verified.
+:::
+
+::: {.skill-card}
+### Capacity risk
+
+Eight tanks do not imply unlimited usable capacity. Product mix, cleaning, shelf life, and seasonality determine how much profitable demand can actually be served.
+:::
+
+::: {.skill-card}
+### Commercial risk
+
+Wholesale demand should be validated through compliant distribution and repeat orders. Modeled shortages are not the same as committed buyer demand.
+:::
+:::
+
+A 10% increase in fixed costs combined with a 10% reduction in contribution raises the break-even requirement from **89,150 to 108,960 pints**, about a **22.2% increase**.
+
+## Recommendation
+
+The recommendation is **conditional**, not unconditional approval.
+
+Proceed to structured next-stage decision testing while withholding final authorization of the $150,000 system until the owner verifies:
+
+- permits and licensing,
+- supplier pricing and maintenance terms,
+- a feasible monthly production calendar,
+- local menu-price acceptance,
+- credible wholesale reorder demand,
+- incremental after-tax cash flow,
+- and a risk-adjusted return requirement.
+
+The operating priority is to **protect high-contribution retail capacity first**, then expand wholesale only when the incremental contribution justifies the tank capacity it consumes.
+
+## What this project demonstrates
+
+::: {.skill-grid}
+::: {.skill-card}
+### Investment analysis
+
+Separating operating earnings, debt service, break-even, payback, and cash ROI rather than relying on one headline profitability measure.
+:::
+
+::: {.skill-card}
+### Operations strategy
+
+Connecting product-level demand to constrained capacity, shelf life, channel economics, and monthly production decisions.
+:::
+
+::: {.skill-card}
+### Managerial judgment
+
+Using favorable simulation results as evidence while explicitly preserving uncertainty, validation requirements, and decision gates.
+:::
+:::
+
+::: {.badge-row}
+[View Quarto source →](https://github.com/shoufengchen/shoufengchen.github.io/blob/main/ad715.qmd){.btn .btn-outline-primary}
+[Back to all projects](projects.html){.btn .btn-outline-primary}
+[View CV](cv.html){.btn .btn-outline-primary}
+:::
