@@ -58,7 +58,7 @@ A scalable analytics workflow operating on **815,193 job-posting records** rathe
 
 ::: {.project-card}
 ::: {.project-topline}
-[02]{.project-number}
+[04]{.project-number}
 [MACHINE LEARNING · REAL ESTATE]{.project-kicker}
 :::
 
@@ -151,7 +151,7 @@ A structured go/no-go framework combining strategy, operations, and financial fe
 
 ::: {.project-card}
 ::: {.project-topline}
-[04]{.project-number}
+[03]{.project-number}
 [PUBLISHED RESEARCH · CONSUMER BEHAVIOR]{.project-kicker}
 :::
 

@@ -73,21 +73,7 @@ PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-dat
 :::
 
 ::: {.featured-card}
-[02 · MACHINE LEARNING]{.feature-kicker}
-
-### Property Valuation
-
-[69,121]{.feature-number}
-
-[cleaned property records]{.feature-unit}
-
-Multiple predictive models compared through cross-validation; Random Forest delivered the strongest validation performance.
-
-[View project →](projects.html#property-valuation-modeling){.feature-link}
-:::
-
-::: {.featured-card}
-[03 · FINANCIAL STRATEGY]{.feature-kicker}
+[02 · FINANCIAL STRATEGY]{.feature-kicker}
 
 ### Microbrewery Feasibility
 
@@ -98,6 +84,20 @@ Multiple predictive models compared through cross-validation; Random Forest deli
 Strategy, operating forecasts, break-even, ROI, payback, and sensitivity analysis combined into an investment decision framework.
 
 [View project →](projects.html#microbrewery-investment-feasibility){.feature-link}
+:::
+
+::: {.featured-card}
+[03 · PUBLISHED RESEARCH]{.feature-kicker}
+
+### POP MART Consumer Psychology
+
+[2024]{.feature-number}
+
+[peer-reviewed publication]{.feature-unit}
+
+Consumer psychology research applying Prospect Theory, Cognitive Dissonance, and Maslow's Hierarchy to blind-box purchasing behavior.
+
+[View project →](projects.html#published-research-pop-mart-consumer-psychology){.feature-link}
 :::
 
 :::
