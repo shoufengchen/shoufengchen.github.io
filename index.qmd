@@ -4,13 +4,13 @@ page-layout: full
 ---
 
 <div class="hero">
-  <div class="eyebrow">BUSINESS ANALYTICS · FINANCE · CLOUD ANALYTICS</div>
-  <h1>Shoufeng Chen</h1>
-  <p class="hero-lead">Applied Business Analytics graduate student at Boston University building data-driven solutions at the intersection of analytics, finance, and technology.</p>
-  <div class="hero-actions">
-    <a class="btn btn-primary" href="projects.html">View Projects</a>
-    <a class="btn btn-outline-primary" href="cv.html">View CV</a>
-  </div>
+<div class="eyebrow">BUSINESS ANALYTICS · FINANCE · CLOUD ANALYTICS</div>
+<h1>Shoufeng Chen</h1>
+<p class="hero-lead">Applied Business Analytics graduate student at Boston University building data-driven solutions at the intersection of analytics, finance, and technology.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="projects.html">View Projects</a>
+<a class="btn btn-outline-primary" href="cv.html">View CV</a>
+</div>
 </div>
 
 ## Profile
@@ -20,26 +20,26 @@ I am pursuing a **Master of Science in Applied Business Analytics at Boston Univ
 My professional experience spans quantitative investment, wealth management, and investment banking. I am especially interested in using analytics to improve investment decisions, business strategy, and scalable data workflows.
 
 <div class="stat-grid">
-  <div class="stat-card"><span class="stat-number">815K+</span><span class="stat-label">job-posting records analyzed with PySpark</span></div>
-  <div class="stat-card"><span class="stat-number">4</span><span class="stat-label">finance and investment internships</span></div>
-  <div class="stat-card"><span class="stat-number">1</span><span class="stat-label">peer-reviewed publication</span></div>
+<div class="stat-card"><span class="stat-number">815K+</span><span class="stat-label">job-posting records analyzed with PySpark</span></div>
+<div class="stat-card"><span class="stat-number">4</span><span class="stat-label">finance and investment internships</span></div>
+<div class="stat-card"><span class="stat-number">1</span><span class="stat-label">peer-reviewed publication</span></div>
 </div>
 
 ## What I Work With
 
 <div class="skill-grid">
-  <div class="skill-card">
-    <h3>Data & Cloud</h3>
-    <p>Python, pandas, PySpark, Spark SQL, SQL, R, AWS EC2, Parquet, Git/GitHub</p>
-  </div>
-  <div class="skill-card">
-    <h3>Analytics</h3>
-    <p>Regression, clustering, cross-validation, model evaluation, visualization, data pipelines</p>
-  </div>
-  <div class="skill-card">
-    <h3>Finance</h3>
-    <p>DCF valuation, comparable-company analysis, factor screening, strategy backtesting, sensitivity analysis</p>
-  </div>
+<div class="skill-card">
+<h3>Data & Cloud</h3>
+<p>Python, pandas, PySpark, Spark SQL, SQL, R, AWS EC2, Parquet, Git/GitHub</p>
+</div>
+<div class="skill-card">
+<h3>Analytics</h3>
+<p>Regression, clustering, cross-validation, model evaluation, visualization, data pipelines</p>
+</div>
+<div class="skill-card">
+<h3>Finance</h3>
+<p>DCF valuation, comparable-company analysis, factor screening, strategy backtesting, sensitivity analysis</p>
+</div>
 </div>
 
 ## Career Direction
