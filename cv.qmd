@@ -3,9 +3,11 @@ title: "CV"
 page-layout: full
 ---
 
-::: {.cv-header}
+::: {.cv-page}
+
+::: {.cv-top}
 ::: {.cv-intro}
-Final CV version reflecting my current education, professional experience, technical skills, and selected projects.
+My current background combines applied business analytics, quantitative investment, investment banking, and financial market research. The downloadable PDF below is the final CV version.
 :::
 
 ::: {.cv-action}
@@ -15,60 +17,96 @@ Final CV version reflecting my current education, professional experience, techn
 
 ## Education
 
-**Boston University | Boston, MA**  
-1 year (Sep 2026 - Jul 2027)  
-Master of Science in Applied Business Analytics
+::: {.cv-entry}
+### Boston University | Boston, MA
+[Sep 2026 - Jul 2027]{.cv-meta}
 
-**Curtin University | Perth, Australia**  
-3 years (Sep 2023 - Jan 2026)  
+Master of Science in Applied Business Analytics
+:::
+
+::: {.cv-entry}
+### Curtin University | Perth, Australia
+[Sep 2023 - Jan 2026]{.cv-meta}
+
 Bachelor of Commerce in Finance and Marketing
+:::
 
 ## Professional Experience
 
+::: {.cv-entry}
 ### Hangzhou Fuyonggu Private Fund | Quantitative Investment Intern
-**Hangzhou, China | Mar-Aug 2026**
+[Hangzhou, China · Mar-Aug 2026]{.cv-meta}
 
 - Participated in quantitative strategy backtesting using QuantConnect, JoinQuant, and Ricequant; studied factor selection and trading-platform architecture to assess systematic investment approaches.
 - Reviewed quantitative-platform sales practices and market positioning, connecting financial technology capabilities with product commercialization and business applications.
+:::
 
+::: {.cv-entry}
 ### SDIC Securities | Wealth Advisor Intern
-**Jiaxing & Hangzhou, China | Jun-Jul 2024, Nov 2025-Feb 2026**
+[Jiaxing & Hangzhou, China · Jun-Jul 2024, Nov 2025-Feb 2026]{.cv-meta}
 
 - Used Wind and Excel to analyze equity markets, macroeconomic indicators, and fund performance, supporting risk-return assessment and portfolio recommendations.
-- Developed a fund evaluation framework to compare products and inform asset allocation, improving proposal preparation efficiency by approximately 10% according to supervisor feedback
+- Developed a fund evaluation framework to compare products and inform asset allocation, improving proposal preparation efficiency by approximately 10% according to supervisor feedback.
 - Used Python, SQL, Wind, and Excel to investigate A-share stocks with P/E or P/B ratios below 1 and those trading below IPO offer prices, analyzing valuation patterns and possible drivers.
 - Produced three market research reports and developed a structured product database framework for equity and fixed-income offerings to support investment decisions.
+:::
 
+::: {.cv-entry}
 ### CITIC Securities | Investment Banking Intern
-**Shenzhen, China | Jul 2024**
+[Shenzhen, China · Jul 2024]{.cv-meta}
 
 - Contributed to 2-3 Excel-based valuation and forecasting models, including DCF and comparable-company analysis; applied sensitivity analysis to assess valuation ranges.
 - Supported a new-energy company's IPO presentation with three-year financial projections and ESG metrics, coordinating with the ESG team.
+:::
 
 ## Technical Skills
 
-**Programming & Data:** Python, SQL, R, Git/GitHub, AWS EC2, scikit learn, machine learning  
-**Financial Tools:** Wind Financial Terminal, Excel, QuantConnect, JoinQuant, Ricequant  
-**Methods & Visualization:** Strategy backtesting, factor screening, DCF valuation, sensitivity analysis, clustering, Matplotlib, data visualization
+::: {.cv-skill-grid}
+::: {.cv-skill}
+**Programming & Data**
+
+Python, SQL, R, Git/GitHub, AWS EC2, scikit-learn, machine learning
+:::
+
+::: {.cv-skill}
+**Financial Tools**
+
+Wind Financial Terminal, Excel, QuantConnect, JoinQuant, Ricequant
+:::
+
+::: {.cv-skill}
+**Methods & Visualization**
+
+Strategy backtesting, factor screening, DCF valuation, sensitivity analysis, clustering, Matplotlib, data visualization
+:::
+:::
 
 ## Selected Projects & Research
 
+::: {.cv-entry}
 ### Employability Analytics (Trends in Data Science & Business Analytics)
-**Sep 2026-Present**
+[Sep 2026-Present]{.cv-meta}
 
 - Analyzed 815,193 job-posting records using PySpark, Spark SQL, and Parquet datasets, working with job, company, industry, and location data to support scalable analytics.
-- Developing an data engineering and Machine Learning analytics workflow from data ingestion and transformation toward feature engineering, model evaluation, and business reporting.
+- Developing a data engineering and machine learning analytics workflow from data ingestion and transformation toward feature engineering, model evaluation, and business reporting.
+:::
 
+::: {.cv-entry}
 ### Microbrewery Investment Feasibility
-**Sep 2026-Present**
+[Sep 2026-Present]{.cv-meta}
 
 - Evaluating a $150,000 microbrewery investment for a Boston restaurant using PESTEL, Five Forces, VRIO, SWOT, and market research to assess strategy and feasibility.
 - Developing three-year financial and operating forecasts, ROI/payback metrics, and an implementation roadmap to inform a go/no-go investment recommendation (in progress).
+:::
 
+::: {.cv-entry}
 ### Published Research | POP MART Consumer Psychology
-**Dec 2024**
+[Dec 2024]{.cv-meta}
 
 - Applied Prospect Theory, Cognitive Dissonance, and Maslow's Hierarchy to examine blind-box purchase motivations.
 - Examined scarcity marketing, IP collaborations, and social media to propose consumer-engagement and brand-growth strategies.
 
 Chen, S. (2024). *The Psychological Analysis of the Blind Box Craze in the Chinese Market: A Case Study of POP MART.* Journal of Education, Humanities and Social Sciences, 43, 128-133. DOI: 10.54097/135s5t77
+:::
+
+:::

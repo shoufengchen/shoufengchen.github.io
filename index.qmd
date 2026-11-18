@@ -1,17 +1,56 @@
 ---
-title: "About You"
+title: false
 page-layout: full
 ---
 
-<div class="hero">
-<div class="eyebrow">BUSINESS ANALYTICS · FINANCE · CLOUD ANALYTICS</div>
-<h1>Shoufeng Chen</h1>
-<p class="hero-lead">Applied Business Analytics graduate student at Boston University building data-driven solutions at the intersection of analytics, finance, and technology.</p>
-<div class="hero-actions">
-<a class="btn btn-primary" href="projects.html">View Projects</a>
-<a class="btn btn-outline-primary" href="cv.html">View CV</a>
-</div>
-</div>
+::: {.hero}
+::: {.hero-copy}
+
+[BUSINESS ANALYTICS · FINANCE · CLOUD]{.eyebrow}
+
+# Shoufeng Chen
+
+[Applied Business Analytics graduate student at Boston University building data-driven solutions at the intersection of analytics, finance, and technology.]{.hero-lead}
+
+::: {.hero-actions}
+[Explore Projects](projects.html){.btn .btn-primary}
+[View CV](cv.html){.btn .btn-outline-primary}
+:::
+
+::: {.hero-meta}
+[Based in Boston]{.meta-pill}
+[MS · Boston University]{.meta-pill}
+[Finance × Analytics]{.meta-pill}
+:::
+
+:::
+
+::: {.hero-visual}
+
+::: {.signal-card}
+[FOCUS]{.signal-label}
+
+### Analytics that connects models to decisions.
+
+I work across data engineering, financial analysis, machine learning, and business strategy—turning technical outputs into clear recommendations.
+:::
+
+::: {.signal-grid}
+::: {.signal-mini}
+**815K+**
+
+Job postings analyzed
+:::
+
+::: {.signal-mini}
+**4**
+
+Finance internship periods
+:::
+:::
+
+:::
+:::
 
 ## Profile
 
@@ -19,31 +58,55 @@ I am pursuing a **Master of Science in Applied Business Analytics at Boston Univ
 
 My professional experience spans quantitative investment, wealth management, and investment banking. I am especially interested in using analytics to improve investment decisions, business strategy, and scalable data workflows.
 
-<div class="stat-grid">
-<div class="stat-card"><span class="stat-number">815K+</span><span class="stat-label">job-posting records analyzed with PySpark</span></div>
-<div class="stat-card"><span class="stat-number">4</span><span class="stat-label">finance and investment internships</span></div>
-<div class="stat-card"><span class="stat-number">1</span><span class="stat-label">peer-reviewed publication</span></div>
-</div>
+::: {.stat-grid}
+::: {.stat-card}
+[815K+]{.stat-number}
+[job-posting records analyzed with PySpark]{.stat-label}
+:::
+
+::: {.stat-card}
+[4]{.stat-number}
+[finance internship periods across investment roles]{.stat-label}
+:::
+
+::: {.stat-card}
+[1]{.stat-number}
+[peer-reviewed publication]{.stat-label}
+:::
+:::
 
 ## What I Work With
 
-<div class="skill-grid">
-<div class="skill-card">
-<h3>Data & Cloud</h3>
-<p>Python, pandas, PySpark, Spark SQL, SQL, R, AWS EC2, Parquet, Git/GitHub</p>
-</div>
-<div class="skill-card">
-<h3>Analytics</h3>
-<p>Regression, clustering, cross-validation, model evaluation, visualization, data pipelines</p>
-</div>
-<div class="skill-card">
-<h3>Finance</h3>
-<p>DCF valuation, comparable-company analysis, factor screening, strategy backtesting, sensitivity analysis</p>
-</div>
-</div>
+[My toolkit sits at the intersection of technical analytics and commercial decision-making.]{.section-lead}
+
+::: {.skill-grid}
+::: {.skill-card}
+[01]{.skill-index}
+
+### Data & Cloud
+
+Python, SQL, PySpark, Spark SQL, AWS EC2, Parquet, Git/GitHub, and scalable data workflows.
+:::
+
+::: {.skill-card}
+[02]{.skill-index}
+
+### Analytics
+
+Regression, clustering, cross-validation, machine learning, model evaluation, and data visualization.
+:::
+
+::: {.skill-card}
+[03]{.skill-index}
+
+### Finance
+
+DCF valuation, comparable-company analysis, factor screening, strategy backtesting, and sensitivity analysis.
+:::
+:::
 
 ## Career Direction
 
-I am interested in roles where **data analytics, financial decision-making, and technology** come together - including business analytics, financial analytics, quantitative research, fintech, and data-driven strategy.
+I am interested in roles where **data analytics, financial decision-making, and technology** come together—including business analytics, financial analytics, quantitative research, fintech, and data-driven strategy.
 
 > I enjoy turning complex datasets into clear decisions, combining technical analysis with business context rather than treating modeling as an isolated exercise.

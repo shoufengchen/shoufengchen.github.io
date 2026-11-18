@@ -8,6 +8,7 @@ website:
   title: "Shoufeng Chen"
   site-url: "https://shoufengchen.github.io"
   navbar:
+    pinned: true
     background: light
     left:
       - text: "About You"

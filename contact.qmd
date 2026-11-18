@@ -4,6 +4,7 @@ page-layout: full
 ---
 
 ::: {.contact-shell}
+
 ::: {.contact-card}
 
 [LET'S CONNECT]{.project-kicker}
@@ -20,8 +21,24 @@ shoufeng@bu.edu](mailto:shoufeng@bu.edu){.contact-link}
 github.com/shoufengchen](https://github.com/shoufengchen){.contact-link}
 
 [**CV**  
-Download PDF](assets/Shoufeng_Chen_CV.pdf){.contact-link download="Shoufeng_Chen_CV.pdf"}
+Download final PDF](assets/Shoufeng_Chen_CV.pdf){.contact-link download="Shoufeng_Chen_CV.pdf"}
 :::
 
 :::
+
+::: {.contact-side}
+### Areas of Interest
+
+I am most interested in work where analytical rigor meets real business or investment decisions.
+
+::: {.focus-tags}
+[Business Analytics]{.focus-tag}
+[Financial Analytics]{.focus-tag}
+[Fintech]{.focus-tag}
+[Quant Research]{.focus-tag}
+[Data Strategy]{.focus-tag}
+:::
+
+:::
+
 :::
