@@ -123,8 +123,8 @@ Random Forest produced the strongest validation performance with cross-validatio
 [forecast horizon]{.case-label}
 :::
 ::: {.case-metric}
-[5]{.case-value}
-[strategy lenses]{.case-label}
+[4]{.case-value}
+[strategy frameworks]{.case-label}
 :::
 :::
 
