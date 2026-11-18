@@ -69,7 +69,7 @@ Finance internship periods
 
 PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-data workflow.
 
-[View project →](projects.html#employability-analytics){.feature-link}
+[View project →](ad688.html){.feature-link}
 :::
 
 ::: {.featured-card}

@@ -1,0 +1,10 @@
+Development host:
+ip-172-31-33-219
+Workspace:
+/home/ubuntu/shoufengchen.github.io
+Python:
+Python 3.12.3
+Quarto:
+1.10.18
+Generated:
+2026-11-18T21:49:54Z

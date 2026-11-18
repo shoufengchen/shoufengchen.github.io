@@ -52,6 +52,8 @@ A scalable analytics workflow operating on **815,193 job-posting records** rathe
 [AWS EC2]{.tech-badge}
 [Parquet]{.tech-badge}
 :::
+
+[View full case study →](ad688.html){.btn .btn-sm .btn-outline-primary}
 :::
 
 ::: {.project-card}

@@ -858,3 +858,58 @@ blockquote {
     grid-template-columns: 1fr;
   }
 }
+
+/* AD688 flagship case study */
+.code-proof {
+  margin: 1.2rem 0 2rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid #cfe0ef;
+  border-left: 4px solid var(--blue);
+  border-radius: 14px;
+  background: #f7fbff;
+}
+
+.stage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 2.4rem;
+}
+
+.stage-card {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255,255,255,.95);
+  box-shadow: var(--shadow-sm);
+}
+
+.stage-card h3 {
+  margin-top: 0;
+}
+
+.figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.figure-panel {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.figure-panel img {
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .stage-grid,
+  .figure-grid {
+    grid-template-columns: 1fr;
+  }
+}
