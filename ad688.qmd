@@ -268,4 +268,8 @@ Turning technical outputs into labor-market conclusions while explicitly identif
 
 This portfolio page intentionally shows representative code rather than duplicating the full course submissions. The original analytical assignments were developed on the same EC2 environment, while this portfolio repository contains the Quarto source, selected outputs, environment evidence, and deployment workflow.
 
+::: {.badge-row}
+[View Quarto source →](https://github.com/shoufengchen/shoufengchen.github.io/blob/main/ad688.qmd){.btn .btn-outline-primary}
+[View EC2 environment record →](assets/ad688/ec2-environment.txt){.btn .btn-outline-primary}
 [Back to all projects](projects.html){.btn .btn-outline-primary}
+:::

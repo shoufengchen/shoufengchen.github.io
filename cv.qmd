@@ -89,6 +89,7 @@ Strategy backtesting, factor screening, DCF valuation, sensitivity analysis, clu
 
 - Analyzed 815,193 job-posting records using PySpark, Spark SQL, and Parquet datasets, working with job, company, industry, and location data to support scalable analytics.
 - Developing a data engineering and machine learning analytics workflow from data ingestion and transformation toward feature engineering, model evaluation, and business reporting.
+- [View the AD688 case study →](ad688.html)
 :::
 
 ::: {.cv-entry}
