@@ -3,7 +3,7 @@ title: "Projects"
 page-layout: full
 ---
 
-[Selected academic and research work demonstrating scalable analytics, machine learning, strategic decision-making, and applied finance.]{.page-intro}
+[Selected work organized around the question a stakeholder would care about, the analytical approach used, and the evidence produced.]{.page-intro}
 
 ::: {.project-grid}
 
@@ -17,13 +17,34 @@ page-layout: full
 
 [Boston University · AD688 · 2026]{.project-meta}
 
-Analyzed **815,193 job-posting records** using PySpark, Spark SQL, Parquet datasets, and AWS EC2 to study trends in data science and business analytics employment.
+::: {.case-metrics}
+::: {.case-metric}
+[815,193]{.case-value}
+[job postings]{.case-label}
+:::
+::: {.case-metric}
+[51,795]{.case-value}
+[companies]{.case-label}
+:::
+::: {.case-metric}
+[20]{.case-value}
+[Parquet files]{.case-label}
+:::
+:::
 
-**Highlights**
+**Business question**
+
+How can large-scale job-market data be structured and analyzed to understand trends in data science and business analytics employment?
+
+**Approach**
 
 - Built distributed transformations, joins, aggregations, and reusable Spark DataFrame workflows.
-- Worked with large Parquet datasets in an AWS EC2 environment.
+- Worked with job, company, industry, and location data in an AWS EC2 environment.
 - Extended the workflow toward feature engineering, model evaluation, and business reporting.
+
+**Evidence**
+
+A scalable analytics workflow operating on **815,193 job-posting records** rather than a small local sample.
 
 ::: {.badge-row}
 [PySpark]{.tech-badge}
@@ -43,13 +64,34 @@ Analyzed **815,193 job-posting records** using PySpark, Spark SQL, Parquet datas
 
 [Business Analytics · 2026]{.project-meta}
 
-Developed a predictive modeling workflow for assessed property values using **69,121 cleaned records** and **47 encoded predictors**. Multiple models were compared using cross-validation, with Random Forest producing the strongest validation performance.
+::: {.case-metrics}
+::: {.case-metric}
+[69,121]{.case-value}
+[cleaned records]{.case-label}
+:::
+::: {.case-metric}
+[47]{.case-value}
+[encoded predictors]{.case-label}
+:::
+::: {.case-metric}
+[$239,864]{.case-value}
+[best CV RMSE]{.case-label}
+:::
+:::
 
-**Highlights**
+**Business question**
+
+Which modeling approach best predicts assessed property values while balancing accuracy and a reproducible workflow?
+
+**Approach**
 
 - Compared Linear, LASSO, Ridge, Polynomial, KNN, Decision Tree, and Random Forest models.
 - Used pipelines, standardization, one-hot encoding, cross-validation, and RMSE for model selection.
-- Best Random Forest cross-validation RMSE: **$239,863.97**.
+- Evaluated model performance consistently across competing approaches.
+
+**Evidence**
+
+Random Forest produced the strongest validation performance with cross-validation RMSE of approximately **$239,863.97**.
 
 ::: {.badge-row}
 [Python]{.tech-badge}
@@ -69,13 +111,34 @@ Developed a predictive modeling workflow for assessed property values using **69
 
 [Boston University · AD715 · 2026]{.project-meta}
 
-Evaluated a **$150,000 microbrewery investment** for a Boston restaurant by combining market strategy, operating assumptions, and financial feasibility analysis.
+::: {.case-metrics}
+::: {.case-metric}
+[$150K]{.case-value}
+[investment]{.case-label}
+:::
+::: {.case-metric}
+[3-year]{.case-value}
+[forecast horizon]{.case-label}
+:::
+::: {.case-metric}
+[5]{.case-value}
+[strategy lenses]{.case-label}
+:::
+:::
 
-**Highlights**
+**Business question**
+
+Should a Boston restaurant invest in in-house craft beer production, and under what operating and market assumptions would the investment be viable?
+
+**Approach**
 
 - Applied PESTEL, Porter's Five Forces, VRIO, SWOT, and market research.
-- Built three-year financial and operating forecasts with break-even, ROI, payback, and sensitivity analysis.
-- Connected production capacity, demand, pricing, and strategic positioning to a go/no-go investment recommendation.
+- Built financial and operating forecasts with break-even, ROI, payback, and sensitivity analysis.
+- Connected production capacity, demand, pricing, and strategic positioning to the investment decision.
+
+**Evidence**
+
+A structured go/no-go framework combining strategy, operations, and financial feasibility rather than relying on a single profitability metric.
 
 ::: {.badge-row}
 [Financial Modeling]{.tech-badge}
@@ -94,13 +157,34 @@ Evaluated a **$150,000 microbrewery investment** for a Boston restaurant by comb
 
 [Journal of Education, Humanities and Social Sciences · 2024]{.project-meta}
 
-Published research examining the psychological drivers behind blind-box consumption and the role of scarcity, uncertainty, IP collaborations, social media, and community culture.
+::: {.case-metrics}
+::: {.case-metric}
+[2024]{.case-value}
+[published]{.case-label}
+:::
+::: {.case-metric}
+[3]{.case-value}
+[theoretical lenses]{.case-label}
+:::
+::: {.case-metric}
+[43]{.case-value}
+[journal volume]{.case-label}
+:::
+:::
 
-**Highlights**
+**Research question**
+
+What psychological and marketing mechanisms help explain blind-box purchasing behavior in the Chinese market?
+
+**Approach**
 
 - Applied Prospect Theory, Cognitive Dissonance Theory, and Maslow's Hierarchy of Needs.
-- Linked consumer psychology to practical brand-growth and customer-engagement strategies.
-- Published in Volume 43, pages 128-133.
+- Examined scarcity marketing, IP collaborations, social media, and community culture.
+- Connected consumer psychology to brand-growth and customer-engagement strategy.
+
+**Evidence**
+
+Peer-reviewed publication in *Journal of Education, Humanities and Social Sciences*, Volume 43, pages 128–133.
 
 [View DOI](https://doi.org/10.54097/135s5t77){.btn .btn-sm .btn-outline-primary}
 
