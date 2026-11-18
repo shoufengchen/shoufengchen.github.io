@@ -1,0 +1,222 @@
+:root {
+  --ink: #17324d;
+  --muted: #64748b;
+  --line: #dbe5ef;
+  --panel: #f7fafc;
+  --accent: #0b63ce;
+  --accent-soft: #eaf3ff;
+}
+
+body {
+  color: var(--ink);
+  background: #ffffff;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 8px rgba(15, 23, 42, 0.04);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
+main.content {
+  max-width: 1120px;
+}
+
+.hero {
+  padding: 4.5rem 4rem;
+  margin: 1.5rem 0 3rem;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(11, 99, 206, .16), transparent 30%),
+    linear-gradient(135deg, #f8fbff 0%, #eef6ff 55%, #ffffff 100%);
+  border: 1px solid #d9e8f8;
+}
+
+.eyebrow,
+.project-kicker {
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  line-height: .96;
+  margin: .55rem 0 1.1rem;
+  font-weight: 800;
+}
+
+.hero-lead {
+  max-width: 760px;
+  font-size: 1.28rem;
+  line-height: 1.65;
+  color: #3f5870;
+}
+
+.hero-actions {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+}
+
+.stat-grid,
+.skill-grid,
+.project-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.stat-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.skill-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stat-card,
+.skill-card,
+.project-card,
+.contact-card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, .055);
+}
+
+.stat-card {
+  padding: 1.5rem;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.stat-label {
+  display: block;
+  margin-top: .25rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.skill-card,
+.project-card {
+  padding: 1.6rem;
+}
+
+.project-card h3 {
+  margin-top: .45rem;
+}
+
+.project-card p,
+.skill-card p {
+  color: #4b6277;
+}
+
+.tech-badge {
+  display: inline-block;
+  margin: .25rem .3rem .1rem 0;
+  padding: .28rem .62rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: #0c4d95;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.page-intro {
+  max-width: 800px;
+  font-size: 1.14rem;
+  color: #4b6277;
+  line-height: 1.7;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 0 2rem;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 2rem;
+}
+
+.contact-shell {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 4rem;
+}
+
+.contact-card {
+  width: min(760px, 100%);
+  padding: 2.25rem;
+}
+
+.contact-links {
+  display: grid;
+  gap: .75rem;
+  margin-top: 1.6rem;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  text-decoration: none;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.contact-label {
+  font-weight: 800;
+  color: var(--ink);
+}
+
+blockquote {
+  border-left: 4px solid var(--accent);
+  background: var(--panel);
+  padding: 1rem 1.25rem;
+  color: #435b72;
+}
+
+h2 {
+  margin-top: 2.4rem;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .stat-grid,
+  .skill-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact-link {
+    flex-direction: column;
+  }
+}
