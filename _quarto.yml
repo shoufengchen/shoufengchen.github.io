@@ -24,7 +24,7 @@ website:
         href: "https://github.com/shoufengchen"
         aria-label: "GitHub"
   page-footer:
-    center: "© 2026 Shoufeng Chen · Boston, MA"
+    center: "© 2026 Shoufeng Chen · Boston, MA · Built with Quarto on AWS EC2"
 
 format:
   html:
