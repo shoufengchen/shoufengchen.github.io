@@ -75,7 +75,7 @@ PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-dat
 ::: {.featured-card}
 [02 · FINANCIAL STRATEGY]{.feature-kicker}
 
-### Microbrewery Feasibility
+### Microbrewery Investment Feasibility
 
 [$150K]{.feature-number}
 

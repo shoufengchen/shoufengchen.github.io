@@ -125,6 +125,7 @@ This publication represents an earlier part of my work at the intersection of **
 
 ::: {.badge-row}
 [Read the publication →](https://drpress.org/ojs/index.php/EHSS/article/view/27193){.btn .btn-primary}
+[View Quarto source →](https://github.com/shoufengchen/shoufengchen.github.io/blob/main/research-popmart.qmd){.btn .btn-outline-primary}
 [Back to all projects](projects.html){.btn .btn-outline-primary}
 [View CV](cv.html){.btn .btn-outline-primary}
 :::
