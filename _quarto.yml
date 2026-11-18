@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Shoufeng Chen"
+  site-url: "https://shoufengchen.github.io"
+  navbar:
+    background: light
+    left:
+      - text: "About You"
+        href: index.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: "https://github.com/shoufengchen"
+        aria-label: "GitHub"
+  page-footer:
+    center: "© 2026 Shoufeng Chen · Boston, MA"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
