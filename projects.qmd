@@ -1,0 +1,94 @@
+---
+title: "Projects"
+page-layout: full
+---
+
+<p class="page-intro">Selected academic and research work demonstrating scalable analytics, machine learning, strategic decision-making, and applied finance.</p>
+
+<div class="project-grid">
+
+<div class="project-card">
+<div class="project-kicker">AWS · PYSPARK · SPARK SQL</div>
+
+### Big Data & Cloud Analytics
+
+**Boston University · AD688 · 2026**
+
+Analyzed **815,193 job-posting records** using PySpark, Spark SQL, Parquet datasets, and AWS EC2. The workflow integrates job, company, industry, and location data to support scalable business analytics.
+
+**Highlights**
+
+- Built distributed transformations, joins, aggregations, and reusable Spark DataFrame workflows.
+- Worked with large Parquet datasets in an AWS EC2 environment.
+- Extended the workflow toward feature engineering, model evaluation, and business reporting.
+
+<span class="tech-badge">PySpark</span>
+<span class="tech-badge">Spark SQL</span>
+<span class="tech-badge">AWS EC2</span>
+<span class="tech-badge">Parquet</span>
+</div>
+
+<div class="project-card">
+<div class="project-kicker">MACHINE LEARNING · REAL ESTATE</div>
+
+### Property Valuation Modeling
+
+**Boston University · Business Analytics · 2026**
+
+Developed a predictive modeling workflow for assessed property values using **69,121 cleaned records** and **47 encoded predictors**. Multiple models were compared using cross-validation, with Random Forest producing the strongest validation performance.
+
+**Highlights**
+
+- Compared Linear, LASSO, Ridge, Polynomial, KNN, Decision Tree, and Random Forest models.
+- Used pipelines, standardization, one-hot encoding, cross-validation, and RMSE for model selection.
+- Best Random Forest cross-validation RMSE: **$239,863.97**.
+
+<span class="tech-badge">Python</span>
+<span class="tech-badge">scikit-learn</span>
+<span class="tech-badge">Random Forest</span>
+<span class="tech-badge">Cross-validation</span>
+</div>
+
+<div class="project-card">
+<div class="project-kicker">STRATEGY · FINANCIAL MODELING</div>
+
+### Microbrewery Investment Feasibility
+
+**Boston University · AD715 · 2026**
+
+Evaluated a **$150,000 microbrewery investment** for a Boston restaurant by combining market strategy, operating assumptions, and financial feasibility analysis.
+
+**Highlights**
+
+- Applied PESTEL, Porter's Five Forces, VRIO, SWOT, and market research.
+- Built three-year financial and operating forecasts with break-even, ROI, payback, and sensitivity analysis.
+- Connected production capacity, demand, pricing, and strategic positioning to a go/no-go investment recommendation.
+
+<span class="tech-badge">Financial Modeling</span>
+<span class="tech-badge">Strategy</span>
+<span class="tech-badge">Sensitivity Analysis</span>
+</div>
+
+<div class="project-card">
+<div class="project-kicker">PUBLISHED RESEARCH · CONSUMER BEHAVIOR</div>
+
+### POP MART Consumer Psychology
+
+**Journal of Education, Humanities and Social Sciences · 2024**
+
+Published research examining the psychological drivers behind blind-box consumption and the role of scarcity, uncertainty, IP collaborations, social media, and community culture.
+
+**Highlights**
+
+- Applied Prospect Theory, Cognitive Dissonance Theory, and Maslow's Hierarchy of Needs.
+- Linked consumer psychology to practical brand-growth and customer-engagement strategies.
+- Published in Volume 43, pages 128-133.
+
+[View DOI](https://doi.org/10.54097/135s5t77){.btn .btn-sm .btn-outline-primary}
+
+<span class="tech-badge">Consumer Analytics</span>
+<span class="tech-badge">Market Strategy</span>
+<span class="tech-badge">Research</span>
+</div>
+
+</div>
