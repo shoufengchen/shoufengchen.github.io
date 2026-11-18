@@ -1,0 +1,130 @@
+---
+title: "POP MART Consumer Psychology"
+subtitle: "Published research on blind-box consumption, uncertainty, scarcity, and brand strategy"
+page-layout: full
+toc: true
+toc-depth: 2
+---
+
+[PUBLISHED RESEARCH · JOURNAL OF EDUCATION, HUMANITIES AND SOCIAL SCIENCES · 2024]{.eyebrow}
+
+# Why do blind boxes turn uncertainty into repeat purchase behavior?
+
+This published research examines the consumer-psychology mechanisms behind the popularity of POP MART's blind-box model in China. The paper connects uncertainty, scarcity, emotional reward, social influence, and brand strategy through three established psychological frameworks.
+
+::: {.case-metrics}
+::: {.case-metric}
+[3]{.case-value}
+[psychological frameworks]{.case-label}
+:::
+::: {.case-metric}
+[Vol. 43]{.case-value}
+[journal issue]{.case-label}
+:::
+::: {.case-metric}
+[128–133]{.case-value}
+[pages]{.case-label}
+:::
+:::
+
+::: {.badge-row}
+[Consumer Psychology]{.tech-badge}
+[Prospect Theory]{.tech-badge}
+[Cognitive Dissonance]{.tech-badge}
+[Maslow]{.tech-badge}
+[Brand Strategy]{.tech-badge}
+:::
+
+## Publication
+
+**Chen, S. (2024).** *The Psychological Analysis of the Blind Box Craze in the Chinese Market: A Case Study of POP MART.* **Journal of Education, Humanities and Social Sciences, 43**, 128–133.
+
+- Published: **December 26, 2024**
+- DOI: **10.54097/135s5t77**
+- Keywords: Customer behaviour, Customer psychology, Brand strategy, Market strategy
+
+::: {.badge-row}
+[Official journal page →](https://drpress.org/ojs/index.php/EHSS/article/view/27193){.btn .btn-primary}
+[DOI →](https://doi.org/10.54097/135s5t77){.btn .btn-outline-primary}
+:::
+
+## Research question
+
+The study asks why POP MART's blind-box products can motivate repeat purchasing when consumers do not know exactly which item they will receive.
+
+The analysis focuses on four connected mechanisms:
+
+- **uncertainty** around the item received,
+- **scarcity** and limited-edition design,
+- **emotional reward** when a desired or rare item appears,
+- and **social reinforcement** through online communities and brand culture.
+
+## Analytical framework
+
+::: {.stage-grid}
+::: {.stage-card}
+### Prospect Theory
+
+Blind-box purchases take place under uncertainty. The framework helps explain why the possibility of obtaining a rare item can influence perceived value and decision-making even when the outcome is not guaranteed.
+:::
+
+::: {.stage-card}
+### Cognitive Dissonance
+
+After purchase, consumers may rationalize disappointing outcomes, continue collecting, or seek another purchase to reduce the tension between expectation and result.
+:::
+
+::: {.stage-card}
+### Maslow's Hierarchy
+
+Collectibles can serve more than functional needs. Identity, belonging, social recognition, and self-expression help explain why community participation can strengthen attachment to a brand.
+:::
+:::
+
+## From psychology to business strategy
+
+The paper does not treat consumer psychology as an isolated academic topic. It connects psychological mechanisms to specific commercial choices.
+
+### Scarcity and limited editions
+
+Scarcity can increase perceived value and urgency, especially when consumers believe a desired design may become difficult to obtain.
+
+### IP collaborations and product design
+
+Distinctive characters and collaborations can strengthen emotional attachment and give customers reasons to continue engaging with the product ecosystem.
+
+### Social media and community culture
+
+Online sharing, unboxing content, collecting communities, and peer discussion can reinforce consumer choice and brand loyalty beyond the initial transaction.
+
+## Managerial implications
+
+::: {.skill-grid}
+::: {.skill-card}
+### Product innovation
+
+Keep the product experience novel enough to sustain discovery while avoiding a portfolio that depends only on artificial scarcity.
+:::
+
+::: {.skill-card}
+### Customer experience
+
+Design the purchase and collecting journey around emotional engagement, community participation, and repeat interaction—not only the moment of sale.
+:::
+
+::: {.skill-card}
+### Brand growth
+
+Use IP, community, and global market adaptation to build a durable brand rather than relying on one short-lived collectible trend.
+:::
+:::
+
+## What this research demonstrates
+
+This publication represents an earlier part of my work at the intersection of **finance, marketing, consumer behavior, and business strategy**. It demonstrates the ability to translate academic theory into a structured explanation of real commercial behavior and then derive practical recommendations from that framework.
+
+::: {.badge-row}
+[Read the publication →](https://drpress.org/ojs/index.php/EHSS/article/view/27193){.btn .btn-primary}
+[Back to all projects](projects.html){.btn .btn-outline-primary}
+[View CV](cv.html){.btn .btn-outline-primary}
+:::

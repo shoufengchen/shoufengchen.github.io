@@ -64,7 +64,7 @@ with zipfile.ZipFile(SOURCE_ZIP) as zf:
     names = zf.namelist()
     print(f"Source files: {len(names)}")
     required = [
-        "index.qmd", "projects.qmd", "ad688.qmd", "ad715.qmd",
+        "index.qmd", "projects.qmd", "ad688.qmd", "ad715.qmd", "research-popmart.qmd",
         "cv.qmd", "contact.qmd", "_quarto.yml",
         "styles.css", "requirements.txt",
         ".github/workflows/quarto-publish.yml"
@@ -81,6 +81,7 @@ with zipfile.ZipFile(FINAL_ZIP) as zf:
         "Static_Website/projects.html",
         "Static_Website/ad688.html",
         "Static_Website/ad715.html",
+        "Static_Website/research-popmart.html",
         "Static_Website/cv.html",
         "Static_Website/contact.html",
         SOURCE_ZIP.name,

@@ -191,6 +191,7 @@ What psychological and marketing mechanisms help explain blind-box purchasing be
 Peer-reviewed publication in *Journal of Education, Humanities and Social Sciences*, Volume 43, pages 128–133.
 
 [View DOI](https://doi.org/10.54097/135s5t77){.btn .btn-sm .btn-outline-primary}
+[View research case study →](research-popmart.html){.btn .btn-sm .btn-outline-primary}
 
 ::: {.badge-row}
 [Consumer Analytics]{.tech-badge}

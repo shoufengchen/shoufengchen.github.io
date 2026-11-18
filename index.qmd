@@ -97,7 +97,7 @@ Strategy, operating forecasts, break-even, ROI, payback, and sensitivity analysi
 
 Consumer psychology research applying Prospect Theory, Cognitive Dissonance, and Maslow's Hierarchy to blind-box purchasing behavior.
 
-[View project →](projects.html#published-research-pop-mart-consumer-psychology){.feature-link}
+[View project →](research-popmart.html){.feature-link}
 :::
 
 :::
