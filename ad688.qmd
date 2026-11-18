@@ -150,6 +150,8 @@ ORDER BY median_salary DESC
 - In the California remote-job analysis, **ServiceNow** had **353** postings, compared with **141** for Block, **128** for Western Digital, **118** for SanDisk, and **97** for Applied.
 - A metro-level salary comparison exposed an important data-quality issue: New York's arithmetic mean was heavily distorted by an extreme salary record. I treated that as a reason to interpret averages cautiously rather than as a clean market ranking.
 
+![Top five companies with the most remote job postings in California](assets/ad688/m02_top_remote_companies_california.png){fig-alt="Bar chart showing the five companies with the most remote job postings in California" width="85%"}
+
 This stage demonstrated that distributed analysis is not only about scale; schema design, joins, aggregation choices, and data-quality checks materially affect the business conclusion.
 
 ## Phase 2 — Salary, education, and work-arrangement analytics
