@@ -1,0 +1,53 @@
+---
+title: "CV"
+page-layout: full
+---
+
+<div class="cv-header">
+  <div>
+    <p class="page-intro">My background combines applied business analytics, quantitative investment, investment banking, and financial market research.</p>
+  </div>
+  <div>
+    <a class="btn btn-primary btn-lg" href="assets/Shoufeng_Chen_CV.pdf" download>Download CV (PDF)</a>
+  </div>
+</div>
+
+## Education
+
+**Boston University** — Boston, MA  
+Master of Science in Applied Business Analytics · Sep 2026 - Jul 2027
+
+**Curtin University** — Perth, Australia  
+Bachelor of Commerce in Finance and Marketing · Sep 2023 - Jan 2026
+
+## Professional Experience
+
+### Hangzhou Fuyonggu Private Fund
+**Quantitative Investment Intern · Mar-Aug 2026**
+
+- Participated in quantitative strategy backtesting using QuantConnect, JoinQuant, and Ricequant.
+- Studied factor selection, trading-platform architecture, and commercialization of financial technology products.
+
+### SDIC Securities — Zhejiang Branch
+**Wealth Advisor Intern · Nov 2025-Feb 2026**
+
+- Used Python, SQL, Wind, and Excel to investigate A-share valuation patterns.
+- Produced market research reports and developed a structured product database framework.
+
+### CITIC Securities
+**Investment Banking Intern · Jul 2024**
+
+- Contributed to DCF and comparable-company valuation models and sensitivity analysis.
+- Supported IPO financial projections and ESG-related presentation work for a new-energy company.
+
+### SDIC Securities — Jiaxing
+**Wealth Advisor Intern · Jun 2024**
+
+- Analyzed equity markets, macro indicators, and fund performance using Wind and Excel.
+- Built a fund evaluation framework that improved proposal preparation efficiency by approximately 10% according to supervisor feedback.
+
+## Technical Skills
+
+**Programming & Data:** Python, pandas, PySpark, SQL, Spark SQL, R, Git/GitHub, AWS EC2  
+**Financial Tools:** Wind Financial Terminal, Excel, QuantConnect, JoinQuant, Ricequant  
+**Methods:** Strategy backtesting, factor screening, DCF valuation, sensitivity analysis, clustering, machine learning, Matplotlib
