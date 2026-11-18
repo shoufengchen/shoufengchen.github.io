@@ -3,14 +3,15 @@ title: "CV"
 page-layout: full
 ---
 
-<div class="cv-header">
-<div>
-<p class="page-intro">My background combines applied business analytics, quantitative investment, investment banking, and financial market research.</p>
-</div>
-<div>
-<a class="btn btn-primary btn-lg" href="assets/Shoufeng_Chen_CV.pdf" download>Download CV (PDF)</a>
-</div>
-</div>
+::: {.cv-header}
+::: {.cv-intro}
+My background combines applied business analytics, quantitative investment, investment banking, and financial market research.
+:::
+
+::: {.cv-action}
+[Download CV (PDF)](assets/Shoufeng_Chen_CV.pdf){.btn .btn-primary .btn-lg download="Shoufeng_Chen_CV.pdf"}
+:::
+:::
 
 ## Education
 
