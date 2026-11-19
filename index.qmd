@@ -148,8 +148,120 @@ DCF · comparable companies · factor screening · sensitivity analysis
 :::
 :::
 
+## Experience
+
+[Finance-first experience, increasingly powered by data and quantitative methods.]{.section-lead}
+
+::: {.experience-timeline}
+
+::: {.experience-row}
+::: {.experience-date}
+[2026]{.experience-year}
+[MAR—AUG]{.experience-month}
+:::
+
+::: {.experience-body}
+[QUANTITATIVE INVESTMENT]{.showcase-kicker}
+
+### Hangzhou Fuyonggu Private Fund
+
+**Quantitative Investment Intern**
+
+Worked with QuantConnect, JoinQuant, and Ricequant to study strategy backtesting, factor selection, and systematic-investment workflows, while also examining how quantitative platforms connect technical capability with commercialization.
+:::
+:::
+
+::: {.experience-row}
+::: {.experience-date}
+[2024—26]{.experience-year}
+[2 TERMS]{.experience-month}
+:::
+
+::: {.experience-body}
+[WEALTH & MARKET ANALYTICS]{.showcase-kicker}
+
+### SDIC Securities
+
+**Wealth Advisor Intern**
+
+Used Wind, Excel, Python, and SQL for equity, fund, and macro analysis; built a structured fund-evaluation framework that improved proposal-preparation efficiency by approximately **10%** according to supervisor feedback.
+:::
+:::
+
+::: {.experience-row}
+::: {.experience-date}
+[2024]{.experience-year}
+[JUL]{.experience-month}
+:::
+
+::: {.experience-body}
+[INVESTMENT BANKING]{.showcase-kicker}
+
+### CITIC Securities
+
+**Investment Banking Intern**
+
+Contributed to **2–3 valuation and forecasting models** using DCF, comparable-company analysis, and sensitivity testing, and supported a new-energy IPO presentation with three-year projections and ESG metrics.
+:::
+:::
+
+:::
+
+## Capabilities
+
+::: {.capability-grid}
+
+::: {.capability-card}
+[01]{.capability-index}
+
+### Analytics & ML
+
+Regression · clustering · cross-validation · machine learning · scikit-learn · data visualization
+:::
+
+::: {.capability-card}
+[02]{.capability-index}
+
+### Data & Cloud
+
+Python · SQL · PySpark · Spark SQL · Parquet · AWS EC2 · Git/GitHub
+:::
+
+::: {.capability-card}
+[03]{.capability-index}
+
+### Finance & Markets
+
+DCF · comparable companies · sensitivity analysis · factor screening · Wind · Excel · strategy backtesting
+:::
+
+::: {.capability-card}
+[04]{.capability-index}
+
+### Research & Strategy
+
+Market research · PESTEL · Five Forces · SWOT · investment feasibility · business reporting
+:::
+
+:::
+
 ## Career Direction
 
 I am interested in roles where **data analytics, financial decision-making, and technology** come together—including business analytics, financial analytics, quantitative research, fintech, and data-driven strategy.
 
 > I enjoy turning complex datasets into clear decisions, combining technical analysis with business context rather than treating modeling as an isolated exercise.
+
+::: {.homepage-contact}
+::: {.homepage-contact-copy}
+[OPEN TO CONVERSATIONS]{.brand-line}
+
+## Analytics, finance, and technology—applied to real decisions.
+
+I am currently based in Boston and interested in opportunities spanning business analytics, financial analytics, fintech, quantitative research, and data-driven strategy.
+:::
+
+::: {.homepage-contact-actions}
+[Contact](contact.html){.btn .btn-primary .btn-lg}
+[Download CV](assets/Shoufeng_Chen_CV.pdf){.btn .btn-outline-dark .btn-lg download="Shoufeng_Chen_CV.pdf"}
+:::
+:::
