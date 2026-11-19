@@ -45,9 +45,25 @@ I am based in **Boston, Massachusetts** and interested in conversations around b
 :::
 
 ::: {.interest-band}
-[BUSINESS ANALYTICS]{.interest-item}
-[FINANCIAL ANALYTICS]{.interest-item}
-[FINTECH]{.interest-item}
-[QUANT RESEARCH]{.interest-item}
-[DATA STRATEGY]{.interest-item}
+
+::: {.interest-item}
+BUSINESS ANALYTICS
+:::
+
+::: {.interest-item}
+FINANCIAL ANALYTICS
+:::
+
+::: {.interest-item}
+FINTECH
+:::
+
+::: {.interest-item}
+QUANT RESEARCH
+:::
+
+::: {.interest-item}
+DATA STRATEGY
+:::
+
 :::
