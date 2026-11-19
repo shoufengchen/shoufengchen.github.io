@@ -12,7 +12,7 @@ OUT = ROOT / "submission_build"
 STATIC = OUT / "Static_Website"
 SOURCE_ZIP = OUT / "Shoufeng_Chen_Portfolio_Source.zip"
 FINAL_ZIP = ROOT / "Shoufeng_Chen_AD688_Portfolio_Submission.zip"
-QUARTO = Path.home() / ".local" / "bin" / "quarto"
+QUARTO = shutil.which("quarto") or str(Path.home() / ".local" / "bin" / "quarto")
 
 EXCLUDED_DIRS = {
     ".git", ".venv", "_site", "submission_build",
