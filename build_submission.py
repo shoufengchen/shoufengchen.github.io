@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 import shutil
 import subprocess
 import zipfile
@@ -22,6 +24,71 @@ EXCLUDED_FILES = {
 EXCLUDED_SUFFIXES = {".pyc", ".pyo"}
 DATA_SUFFIXES = {".csv", ".parquet", ".xlsx", ".xls", ".feather", ".pkl"}
 
+def is_sensitive_name(name: str) -> bool:
+    return name == ".env" or name.startswith(".env.")
+
+def include_source(path: Path) -> bool:
+    rel = path.relative_to(ROOT)
+    if any(part in EXCLUDED_DIRS for part in rel.parts):
+        return False
+    if path.name in EXCLUDED_FILES or is_sensitive_name(path.name):
+        return False
+    if path.suffix.lower() in EXCLUDED_SUFFIXES:
+        return False
+    return path.is_file()
+
+class LocalRefParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.refs = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        for key in ("href", "src"):
+            value = attrs.get(key)
+            if value:
+                self.refs.append(value)
+
+def validate_static_links(root: Path):
+    broken = []
+    checked = 0
+    html_files = sorted(root.rglob("*.html"))
+
+    for html in html_files:
+        parser = LocalRefParser()
+        parser.feed(html.read_text(encoding="utf-8", errors="replace"))
+
+        for raw in parser.refs:
+            if raw.startswith((
+                "#", "http://", "https://", "mailto:", "tel:",
+                "javascript:", "data:"
+            )):
+                continue
+
+            path = unquote(urlsplit(raw).path)
+            if not path:
+                continue
+
+            target = (
+                root / path.lstrip("/")
+                if path.startswith("/")
+                else html.parent / path
+            )
+            if path.endswith("/"):
+                target = target / "index.html"
+
+            checked += 1
+            if not target.exists():
+                broken.append((html.relative_to(root), raw))
+
+    if broken:
+        sample = "; ".join(f"{page}: {ref}" for page, ref in broken[:10])
+        raise SystemExit(
+            f"Broken local references in static website ({len(broken)}): {sample}"
+        )
+
+    return len(html_files), checked
+
 print("[1/6] Cleaning previous render and submission artifacts...")
 if OUT.exists():
     shutil.rmtree(OUT)
@@ -40,16 +107,6 @@ print("[3/6] Copying clean static website...")
 STATIC.parent.mkdir(parents=True, exist_ok=True)
 shutil.copytree(SITE, STATIC)
 
-def include_source(path: Path) -> bool:
-    rel = path.relative_to(ROOT)
-    if any(part in EXCLUDED_DIRS for part in rel.parts):
-        return False
-    if path.name in EXCLUDED_FILES:
-        return False
-    if path.suffix.lower() in EXCLUDED_SUFFIXES:
-        return False
-    return path.is_file()
-
 print("[4/6] Building source-code archive...")
 with zipfile.ZipFile(SOURCE_ZIP, "w", zipfile.ZIP_DEFLATED) as zf:
     for path in sorted(ROOT.rglob("*")):
@@ -58,6 +115,7 @@ with zipfile.ZipFile(SOURCE_ZIP, "w", zipfile.ZIP_DEFLATED) as zf:
 
 print("[5/6] Validating source and static website...")
 static_files = [p for p in STATIC.rglob("*") if p.is_file()]
+
 recursive_artifacts = [
     p for p in static_files
     if "submission_build" in p.relative_to(STATIC).parts
@@ -67,6 +125,8 @@ if recursive_artifacts:
         "Recursive submission_build content detected in static website: "
         + str(recursive_artifacts[0])
     )
+
+html_count, local_ref_count = validate_static_links(STATIC)
 
 with zipfile.ZipFile(SOURCE_ZIP) as zf:
     source_names = zf.namelist()
@@ -88,6 +148,13 @@ data_files = [
 ]
 if data_files:
     raise SystemExit(f"Course data files found in source archive: {data_files}")
+
+sensitive_files = [
+    name for name in source_names
+    if is_sensitive_name(Path(name).name)
+]
+if sensitive_files:
+    raise SystemExit(f"Sensitive environment files found in source archive: {sensitive_files}")
 
 print("[6/6] Building final submission archive...")
 with zipfile.ZipFile(FINAL_ZIP, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -118,9 +185,13 @@ if missing_final:
 print()
 print(f"Created: {FINAL_ZIP}")
 print(f"Static files: {len(static_files)}")
+print(f"HTML pages: {html_count}")
+print(f"Local HTML refs checked: {local_ref_count}")
 print(f"Source files: {len(source_names)}")
 print("Required source files: OK")
 print("Course data files excluded: OK")
+print("Sensitive .env files excluded: OK")
+print("Broken local links: NONE")
 print("Recursive submission artifacts: NONE")
 print("Final package structure: OK")
 print(f"Final package size: {FINAL_ZIP.stat().st_size / 1024 / 1024:.2f} MB")
