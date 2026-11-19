@@ -2212,3 +2212,45 @@ main.content {
     display: none;
   }
 }
+
+
+/* Final brand polish */
+.profile-photo-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 14%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(16,27,42,.24), rgba(16,27,42,0));
+}
+
+.proof-strip {
+  background: #fff;
+  box-shadow: 0 14px 38px rgba(11,19,32,.055);
+}
+
+.proof-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.proof-item::before {
+  content: "";
+  position: absolute;
+  left: 1.2rem;
+  right: 1.2rem;
+  top: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--editorial-blue), var(--editorial-cyan));
+  opacity: .72;
+}
+
+.proof-value {
+  color: var(--editorial-blue);
+}
+
+.proof-item:nth-child(2) .proof-value,
+.proof-item:nth-child(3) .proof-value {
+  color: var(--editorial-ink);
+}
