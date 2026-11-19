@@ -1952,3 +1952,263 @@ main.content {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Portfolio-integrated CV page */
+.cv-editorial-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr);
+  min-height: 540px;
+  margin: .75rem 0 4.5rem;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(31,94,255,.24), transparent 30rem),
+    #0b1320;
+  color: #fff;
+}
+
+.cv-editorial-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(2rem, 5vw, 4.5rem);
+}
+
+.cv-editorial-copy h1 {
+  max-width: 780px;
+  margin: .75rem 0 1.15rem;
+  color: #fff;
+  font-size: clamp(3rem, 6vw, 5.8rem);
+  line-height: .94;
+  letter-spacing: -.065em;
+}
+
+.cv-editorial-copy p {
+  max-width: 720px;
+  color: #c8d1db;
+  font-size: 1.08rem;
+  line-height: 1.72;
+}
+
+.cv-editorial-copy .btn {
+  margin-top: 1rem;
+  width: fit-content;
+  padding: .9rem 1.35rem;
+  font-weight: 820;
+}
+
+.cv-editorial-facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: .85rem;
+  padding: clamp(1.6rem, 4vw, 3rem);
+  border-left: 1px solid rgba(255,255,255,.12);
+  background: #101b2a;
+}
+
+.cv-editorial-facts p {
+  margin: 0;
+  padding-top: .85rem;
+  color: #cad3dd;
+  border-top: 1px solid rgba(255,255,255,.12);
+}
+
+.cv-editorial-facts strong {
+  color: #fff;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1px;
+  margin: 1.4rem 0 5rem;
+  border: 1px solid rgba(11,19,32,.14);
+  background: rgba(11,19,32,.14);
+}
+
+.education-card {
+  min-height: 280px;
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  background: #fff;
+}
+
+.education-date {
+  display: block;
+  margin-bottom: 2.2rem;
+  color: var(--editorial-blue);
+  font-size: .7rem;
+  font-weight: 850;
+  letter-spacing: .14em;
+}
+
+.education-card h3 {
+  margin: 0 0 .7rem;
+  font-size: clamp(1.6rem, 2.6vw, 2.35rem);
+  letter-spacing: -.04em;
+}
+
+.education-card p {
+  color: #536373;
+  line-height: 1.7;
+}
+
+.education-note {
+  display: block;
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(11,19,32,.10);
+  color: #6a7886;
+  font-size: .92rem;
+  line-height: 1.65;
+}
+
+.cv-experience-list {
+  margin: 1.4rem 0 5rem;
+  border-top: 1px solid rgba(11,19,32,.14);
+}
+
+.cv-experience-item {
+  display: grid;
+  grid-template-columns: 150px minmax(0,1fr);
+  gap: 2rem;
+  padding: 2rem 0 2.3rem;
+  border-bottom: 1px solid rgba(11,19,32,.14);
+}
+
+.cv-experience-rail {
+  position: relative;
+  padding-left: 1.05rem;
+}
+
+.cv-experience-rail::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .12rem;
+  bottom: .1rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--editorial-blue), rgba(31,94,255,.12));
+}
+
+.cv-experience-content h3 {
+  margin: .45rem 0 .25rem;
+  font-size: clamp(1.7rem, 2.7vw, 2.4rem);
+  letter-spacing: -.04em;
+}
+
+.cv-experience-content > p {
+  margin-bottom: 1rem;
+  color: #506171;
+}
+
+.cv-experience-content ul {
+  margin-top: .9rem;
+  padding-left: 1.1rem;
+}
+
+.cv-experience-content li {
+  margin-bottom: .65rem;
+  color: #566676;
+  line-height: 1.72;
+}
+
+.cv-project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 1px;
+  margin: 1.4rem 0 4.8rem;
+  border: 1px solid rgba(11,19,32,.14);
+  background: rgba(11,19,32,.14);
+}
+
+.cv-project-card {
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+  background: #fff;
+}
+
+.cv-project-card h3 {
+  margin: .55rem 0 .55rem;
+  font-size: 1.55rem;
+  letter-spacing: -.035em;
+}
+
+.cv-project-date {
+  display: block;
+  margin-bottom: 1rem;
+  color: #7a8794;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+
+.cv-project-card p {
+  color: #5a6977;
+  line-height: 1.72;
+}
+
+.cv-project-card .showcase-link {
+  margin-top: auto;
+}
+
+.cv-pdf-callout {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  gap: 2rem;
+  align-items: center;
+  margin: 0 0 2rem;
+  padding: 2rem;
+  border: 1px solid rgba(11,19,32,.14);
+  background: #fff;
+}
+
+.cv-pdf-callout h2 {
+  margin: .45rem 0 .2rem;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  letter-spacing: -.045em;
+}
+
+.cv-pdf-callout p {
+  margin-bottom: 0;
+  color: #667583;
+}
+
+@media (max-width: 900px) {
+  .cv-editorial-hero,
+  .education-grid,
+  .cv-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-editorial-facts {
+    border-left: 0;
+    border-top: 1px solid rgba(255,255,255,.12);
+  }
+
+  .cv-project-card {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  .cv-experience-item,
+  .cv-pdf-callout {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-experience-item {
+    gap: 1rem;
+  }
+
+  .cv-experience-rail {
+    padding-left: 0;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid rgba(11,19,32,.08);
+  }
+
+  .cv-experience-rail::before {
+    display: none;
+  }
+}
