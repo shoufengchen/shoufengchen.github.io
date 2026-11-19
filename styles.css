@@ -2292,3 +2292,90 @@ main.content {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+
+/* Contact interests — spacious 3 + 2 card layout */
+.contact-editorial + .interest-band,
+.interest-band {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  width: 100%;
+  margin: 18px 0 3.5rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.interest-band > .interest-item {
+  grid-column: span 2;
+  min-width: 0;
+  min-height: 78px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  color: #526579;
+  background: #ffffff;
+  border: 1px solid rgba(11, 19, 32, .14);
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(11, 19, 32, .045);
+  font-size: .74rem;
+  font-weight: 850;
+  line-height: 1.35;
+  letter-spacing: .08em;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.interest-band > .interest-item:nth-child(4),
+.interest-band > .interest-item:nth-child(5) {
+  grid-column: span 3;
+}
+
+.interest-band > .interest-item > p {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.interest-band > .interest-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(31, 94, 255, .28);
+  box-shadow: 0 12px 30px rgba(11, 19, 32, .07);
+}
+
+@media (max-width: 900px) {
+  .contact-editorial + .interest-band,
+  .interest-band {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .interest-band > .interest-item,
+  .interest-band > .interest-item:nth-child(4) {
+    grid-column: span 1;
+  }
+
+  .interest-band > .interest-item:nth-child(5) {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-editorial + .interest-band,
+  .interest-band {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .interest-band > .interest-item,
+  .interest-band > .interest-item:nth-child(4),
+  .interest-band > .interest-item:nth-child(5) {
+    grid-column: 1 / -1;
+    min-height: 64px;
+  }
+}
