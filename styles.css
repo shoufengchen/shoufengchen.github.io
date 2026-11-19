@@ -1537,3 +1537,83 @@ main.content {
 .navbar .nav-link:hover {
   transform: translateY(-1px);
 }
+
+
+/* Portrait treatment */
+.hero-profile-side {
+  padding: 0;
+  display: grid;
+  grid-template-rows: minmax(360px, 1.25fr) auto;
+  align-content: stretch;
+  gap: 0;
+  background: #101b2a;
+}
+
+.profile-photo-frame {
+  position: relative;
+  overflow: hidden;
+  min-height: 360px;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.profile-photo-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center 16%;
+}
+
+.profile-side-copy {
+  display: flex;
+  flex-direction: column;
+  gap: .72rem;
+  padding: 1.65rem 1.8rem 1.8rem;
+}
+
+.profile-side-copy h3 {
+  margin: .15rem 0 .15rem;
+  color: #fff;
+  font-size: 1.45rem;
+  letter-spacing: -.035em;
+}
+
+.profile-side-copy p {
+  margin: 0;
+  padding-top: .72rem;
+  color: #c9d2dc;
+  border-top: 1px solid rgba(255,255,255,.12);
+}
+
+.profile-side-copy strong {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .hero-profile-side {
+    grid-template-rows: 520px auto;
+  }
+
+  .profile-photo {
+    object-position: center 12%;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-profile-side {
+    grid-template-rows: 430px auto;
+  }
+
+  .profile-side-copy {
+    padding: 1.35rem;
+  }
+}
