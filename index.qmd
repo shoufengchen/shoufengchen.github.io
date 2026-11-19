@@ -19,9 +19,16 @@ page-layout: full
 
 :::
 
-::: {.hero-editorial-side}
+::: {.hero-editorial-side .hero-profile-side}
 
+::: {.profile-photo-frame}
+<img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Shoufeng Chen">
+:::
+
+::: {.profile-side-copy}
 [PROFILE / 2026]{.side-label}
+
+### Shoufeng Chen
 
 **Boston University**  
 MS Applied Business Analytics
@@ -33,6 +40,7 @@ Finance × Analytics × Cloud
 Python · SQL · PySpark · AWS
 
 [GitHub ↗](https://github.com/shoufengchen){.side-link}
+:::
 
 :::
 :::
