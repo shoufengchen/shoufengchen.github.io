@@ -1814,3 +1814,141 @@ main.content {
     justify-content: flex-start;
   }
 }
+
+
+/* Editorial contact page */
+.contact-editorial {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(330px, .82fr);
+  min-height: 650px;
+  margin: .75rem 0 0;
+  background: #0b1320;
+  color: #fff;
+}
+
+.contact-editorial-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(2.2rem, 6vw, 5rem);
+  background:
+    radial-gradient(circle at 18% 18%, rgba(31,94,255,.22), transparent 28rem),
+    #0b1320;
+}
+
+.contact-editorial h1 {
+  max-width: 850px;
+  margin: .8rem 0 1.4rem;
+  color: #fff;
+  font-size: clamp(3.2rem, 6vw, 6rem);
+  line-height: .95;
+  letter-spacing: -.065em;
+}
+
+.contact-editorial-main > p {
+  max-width: 760px;
+  color: #c7d0da;
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+.contact-editorial-lead {
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(255,255,255,.13);
+}
+
+.contact-editorial-side {
+  display: grid;
+  align-content: end;
+  background: #101b2a;
+  border-left: 1px solid rgba(255,255,255,.10);
+}
+
+.contact-method {
+  padding: 1.55rem 1.8rem 1.75rem;
+  border-top: 1px solid rgba(255,255,255,.11);
+}
+
+.contact-method:first-child {
+  border-top: 0;
+}
+
+.contact-method-label {
+  display: block;
+  color: #7f93a8;
+  font-size: .66rem;
+  font-weight: 850;
+  letter-spacing: .16em;
+}
+
+.contact-method h3 {
+  margin: .45rem 0 .65rem;
+  color: #fff;
+  font-size: 1.22rem;
+  letter-spacing: -.025em;
+}
+
+.contact-method-link {
+  color: var(--editorial-cyan);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-method-link:hover {
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.interest-band {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 0 3.5rem;
+  border: 1px solid rgba(11,19,32,.14);
+  border-top: 0;
+}
+
+.interest-item {
+  padding: 1rem .85rem;
+  text-align: center;
+  color: #596979;
+  background: #fff;
+  border-right: 1px solid rgba(11,19,32,.12);
+  font-size: .68rem;
+  font-weight: 850;
+  letter-spacing: .09em;
+}
+
+.interest-item:last-child {
+  border-right: 0;
+}
+
+@media (max-width: 850px) {
+  .contact-editorial {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .contact-editorial-main {
+    min-height: 520px;
+  }
+
+  .contact-editorial-side {
+    border-left: 0;
+    border-top: 1px solid rgba(255,255,255,.10);
+  }
+
+  .interest-band {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .interest-item {
+    border-bottom: 1px solid rgba(11,19,32,.12);
+  }
+}
+
+@media (max-width: 520px) {
+  .interest-band {
+    grid-template-columns: 1fr;
+  }
+}
