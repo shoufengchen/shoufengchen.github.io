@@ -3,155 +3,140 @@ title: "About You"
 page-layout: full
 ---
 
-::: {.hero}
-::: {.hero-copy}
+::: {.hero-editorial}
+::: {.hero-editorial-main}
 
-[BUSINESS ANALYTICS · FINANCE · CLOUD]{.eyebrow}
+[SHOUFENG CHEN · BOSTON]{.brand-line}
 
-# Shoufeng Chen
+# Analytics for decisions that matter.
 
-[Applied Business Analytics graduate student at Boston University building data-driven solutions at the intersection of analytics, finance, and technology.]{.hero-lead}
+[Applied Business Analytics graduate student at Boston University combining data, finance, and cloud technology to turn complex evidence into clear business and investment decisions.]{.hero-statement-lead}
 
 ::: {.hero-actions}
 [Explore Projects](projects.html){.btn .btn-primary}
-[View CV](cv.html){.btn .btn-outline-primary}
-:::
-
-::: {.hero-meta}
-[Based in Boston]{.meta-pill}
-[MS · Boston University]{.meta-pill}
-[Finance × Analytics]{.meta-pill}
+[View CV](cv.html){.btn .btn-outline-light}
 :::
 
 :::
 
-::: {.hero-visual}
+::: {.hero-editorial-side}
 
-::: {.signal-card}
-[FOCUS]{.signal-label}
+[PROFILE / 2026]{.side-label}
 
-### Analytics that connects models to decisions.
+**Boston University**  
+MS Applied Business Analytics
 
-I work across data engineering, financial analysis, machine learning, and business strategy—turning technical outputs into clear recommendations.
-:::
+**Focus**  
+Finance × Analytics × Cloud
 
-::: {.signal-grid}
-::: {.signal-mini}
-**815K+**
+**Tools**  
+Python · SQL · PySpark · AWS
 
-Job postings analyzed
-:::
-
-::: {.signal-mini}
-**4**
-
-Finance internship periods
-:::
-:::
+[GitHub ↗](https://github.com/shoufengchen){.side-link}
 
 :::
 :::
 
-## Featured Work
+::: {.proof-strip}
+::: {.proof-item}
+[01]{.proof-index}
+[815K+]{.proof-value}
+[job postings analyzed]{.proof-label}
+:::
 
-[Three projects that best represent how I combine technical analysis with business decision-making.]{.section-lead}
+::: {.proof-item}
+[02]{.proof-index}
+[$150K]{.proof-value}
+[investment evaluated]{.proof-label}
+:::
 
-::: {.featured-grid}
+::: {.proof-item}
+[03]{.proof-index}
+[1]{.proof-value}
+[peer-reviewed publication]{.proof-label}
+:::
+:::
 
-::: {.featured-card}
-[01 · CLOUD ANALYTICS]{.feature-kicker}
+## Selected Work
+
+[Projects are presented as business questions, analytical decisions, and evidence—not as a list of assignments.]{.section-lead}
+
+::: {.showcase-list}
+
+::: {.showcase-item}
+::: {.showcase-copy}
+[CLOUD ANALYTICS · 01]{.showcase-kicker}
 
 ### Employability Analytics
 
-[815,193]{.feature-number}
+Built a scalable PySpark and Spark SQL workflow on AWS EC2 to analyze **815,193 job postings** and **51,795 companies** across distributed Parquet data.
 
-[job postings analyzed]{.feature-unit}
-
-PySpark, Spark SQL, Parquet, and AWS EC2 used to build a scalable employment-data workflow.
-
-[View project →](ad688.html){.feature-link}
+[View case study →](ad688.html){.showcase-link}
 :::
 
-::: {.featured-card}
-[02 · FINANCIAL STRATEGY]{.feature-kicker}
+::: {.showcase-visual .showcase-data}
+![](assets/ad688/salary_distribution_remote.png){fig-alt="Salary distribution visualization from the AD688 employability analytics project"}
+:::
+:::
+
+::: {.showcase-item}
+::: {.showcase-copy}
+[FINANCIAL STRATEGY · 02]{.showcase-kicker}
 
 ### Microbrewery Investment Feasibility
 
-[$150K]{.feature-number}
+Evaluated a **$150,000** in-house craft beer investment using strategy frameworks, operating forecasts, break-even analysis, ROI, payback, and sensitivity analysis.
 
-[investment evaluated]{.feature-unit}
-
-Strategy, operating forecasts, break-even, ROI, payback, and sensitivity analysis combined into an investment decision framework.
-
-[View project →](ad715.html){.feature-link}
+[View case study →](ad715.html){.showcase-link}
 :::
 
-::: {.featured-card}
-[03 · PUBLISHED RESEARCH]{.feature-kicker}
+::: {.showcase-visual .showcase-finance}
+[$150K]{.visual-big}
+[3-YEAR FORECAST]{.visual-small}
+[STRATEGY · OPERATIONS · FINANCE]{.visual-caption}
+:::
+:::
+
+::: {.showcase-item}
+::: {.showcase-copy}
+[PUBLISHED RESEARCH · 03]{.showcase-kicker}
 
 ### POP MART Consumer Psychology
 
-[2024]{.feature-number}
+Published research connecting consumer psychology with scarcity marketing, IP collaboration, social media, and brand-growth strategy in the Chinese blind-box market.
 
-[peer-reviewed publication]{.feature-unit}
+[View research →](research-popmart.html){.showcase-link}
+:::
 
-Consumer psychology research applying Prospect Theory, Cognitive Dissonance, and Maslow's Hierarchy to blind-box purchasing behavior.
-
-[View project →](research-popmart.html){.feature-link}
+::: {.showcase-visual .showcase-research}
+[2024]{.visual-year}
+[POP MART]{.visual-title}
+[CONSUMER PSYCHOLOGY]{.visual-caption}
+:::
 :::
 
 :::
 
 ## Profile
 
-I am pursuing a **Master of Science in Applied Business Analytics at Boston University** after completing a Bachelor of Commerce in **Finance and Marketing at Curtin University**. My work combines business decision-making with Python, SQL, PySpark, cloud infrastructure, financial analysis, and machine learning.
+::: {.profile-grid}
+::: {.profile-copy}
+I am pursuing a **Master of Science in Applied Business Analytics at Boston University** after completing a Bachelor of Commerce in **Finance and Marketing at Curtin University**.
 
-My professional experience spans quantitative investment, wealth management, and investment banking. I am especially interested in using analytics to improve investment decisions, business strategy, and scalable data workflows.
-
-::: {.stat-grid}
-::: {.stat-card}
-[815K+]{.stat-number}
-[job-posting records analyzed with PySpark]{.stat-label}
+My experience spans quantitative investment, wealth management, and investment banking. I am especially interested in work where analytical rigor supports a real commercial or investment decision—not modeling for its own sake.
 :::
 
-::: {.stat-card}
-[4]{.stat-number}
-[finance internship periods across investment roles]{.stat-label}
-:::
+::: {.profile-index}
+[WHAT I WORK WITH]{.side-label}
 
-::: {.stat-card}
-[1]{.stat-number}
-[peer-reviewed publication]{.stat-label}
-:::
-:::
+**Data & Cloud**  
+Python · SQL · PySpark · Spark SQL · AWS EC2
 
-## What I Work With
+**Analytics**  
+Regression · clustering · cross-validation · machine learning
 
-[My toolkit sits at the intersection of technical analytics and commercial decision-making.]{.section-lead}
-
-::: {.skill-grid}
-::: {.skill-card}
-[01]{.skill-index}
-
-### Data & Cloud
-
-Python, SQL, PySpark, Spark SQL, AWS EC2, Parquet, Git/GitHub, and scalable data workflows.
-:::
-
-::: {.skill-card}
-[02]{.skill-index}
-
-### Analytics
-
-Regression, clustering, cross-validation, machine learning, model evaluation, and data visualization.
-:::
-
-::: {.skill-card}
-[03]{.skill-index}
-
-### Finance
-
-DCF valuation, comparable-company analysis, factor screening, strategy backtesting, and sensitivity analysis.
+**Finance**  
+DCF · comparable companies · factor screening · sensitivity analysis
 :::
 :::
 
