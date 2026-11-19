@@ -3,42 +3,51 @@ title: "Contact"
 page-layout: full
 ---
 
-::: {.contact-shell}
+::: {.contact-editorial}
 
-::: {.contact-card}
+::: {.contact-editorial-main}
+[LET'S CONNECT]{.brand-line}
 
-[LET'S CONNECT]{.project-kicker}
+# Let’s talk about decisions worth analyzing.
 
-## Shoufeng Chen
+I am based in **Boston, Massachusetts** and interested in conversations around business analytics, financial analytics, fintech, quantitative research, and data-driven strategy.
 
-I am based in **Boston, Massachusetts** and am open to conversations about business analytics, financial analytics, fintech, quantitative research, and data-driven strategy.
+[The work I enjoy most sits between analytical rigor and a real commercial or investment decision.]{.contact-editorial-lead}
+:::
 
-::: {.contact-links}
-[**Email**  
-shoufeng@bu.edu](mailto:shoufeng@bu.edu){.contact-link}
+::: {.contact-editorial-side}
 
-[**GitHub**  
-github.com/shoufengchen](https://github.com/shoufengchen){.contact-link}
+::: {.contact-method}
+[EMAIL]{.contact-method-label}
 
-[**CV**  
-Download final PDF](assets/Shoufeng_Chen_CV.pdf){.contact-link download="Shoufeng_Chen_CV.pdf"}
+### shoufeng@bu.edu
+
+[Send an email →](mailto:shoufeng@bu.edu){.contact-method-link}
+:::
+
+::: {.contact-method}
+[GITHUB]{.contact-method-label}
+
+### github.com/shoufengchen
+
+[View repositories →](https://github.com/shoufengchen){.contact-method-link}
+:::
+
+::: {.contact-method}
+[CURRICULUM VITAE]{.contact-method-label}
+
+### One-page CV
+
+[Download PDF →](assets/Shoufeng_Chen_CV.pdf){.contact-method-link download="Shoufeng_Chen_CV.pdf"}
 :::
 
 :::
-
-::: {.contact-side}
-### Areas of Interest
-
-I am most interested in work where analytical rigor meets real business or investment decisions.
-
-::: {.focus-tags}
-[Business Analytics]{.focus-tag}
-[Financial Analytics]{.focus-tag}
-[Fintech]{.focus-tag}
-[Quant Research]{.focus-tag}
-[Data Strategy]{.focus-tag}
 :::
 
-:::
-
+::: {.interest-band}
+[BUSINESS ANALYTICS]{.interest-item}
+[FINANCIAL ANALYTICS]{.interest-item}
+[FINTECH]{.interest-item}
+[QUANT RESEARCH]{.interest-item}
+[DATA STRATEGY]{.interest-item}
 :::
