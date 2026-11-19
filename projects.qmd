@@ -58,54 +58,7 @@ A scalable analytics workflow operating on **815,193 job-posting records** rathe
 
 ::: {.project-card}
 ::: {.project-topline}
-[04]{.project-number}
-[MACHINE LEARNING · REAL ESTATE]{.project-kicker}
-:::
-
-### Property Valuation Modeling
-
-[Business Analytics · 2026]{.project-meta}
-
-::: {.case-metrics}
-::: {.case-metric}
-[69,121]{.case-value}
-[cleaned records]{.case-label}
-:::
-::: {.case-metric}
-[47]{.case-value}
-[encoded predictors]{.case-label}
-:::
-::: {.case-metric}
-[$239,864]{.case-value}
-[best CV RMSE]{.case-label}
-:::
-:::
-
-**Business question**
-
-Which modeling approach best predicts assessed property values while balancing accuracy and a reproducible workflow?
-
-**Approach**
-
-- Compared Linear, LASSO, Ridge, Polynomial, KNN, Decision Tree, and Random Forest models.
-- Used pipelines, standardization, one-hot encoding, cross-validation, and RMSE for model selection.
-- Evaluated model performance consistently across competing approaches.
-
-**Evidence**
-
-Random Forest produced the strongest validation performance with cross-validation RMSE of approximately **$239,863.97**.
-
-::: {.badge-row}
-[Python]{.tech-badge}
-[scikit-learn]{.tech-badge}
-[Random Forest]{.tech-badge}
-[Cross-validation]{.tech-badge}
-:::
-:::
-
-::: {.project-card}
-::: {.project-topline}
-[03]{.project-number}
+[02]{.project-number}
 [STRATEGY · FINANCIAL MODELING]{.project-kicker}
 :::
 
@@ -123,7 +76,7 @@ Random Forest produced the strongest validation performance with cross-validatio
 [forecast horizon]{.case-label}
 :::
 ::: {.case-metric}
-[4]{.case-value}
+[3]{.case-value}
 [strategy frameworks]{.case-label}
 :::
 :::
@@ -134,7 +87,7 @@ Should a Boston restaurant invest in in-house craft beer production, and under w
 
 **Approach**
 
-- Applied PESTEL, Porter's Five Forces, VRIO, SWOT, and market research.
+- Applied PESTEL, Porter's Five Forces, SWOT, and market research.
 - Built financial and operating forecasts with break-even, ROI, payback, and sensitivity analysis.
 - Connected production capacity, demand, pricing, and strategic positioning to the investment decision.
 
@@ -197,6 +150,53 @@ Peer-reviewed publication in *Journal of Education, Humanities and Social Scienc
 [Consumer Analytics]{.tech-badge}
 [Market Strategy]{.tech-badge}
 [Research]{.tech-badge}
+:::
+:::
+
+::: {.project-card}
+::: {.project-topline}
+[04]{.project-number}
+[MACHINE LEARNING · REAL ESTATE]{.project-kicker}
+:::
+
+### Property Valuation Modeling
+
+[Boston University · AD599 · 2026]{.project-meta}
+
+::: {.case-metrics}
+::: {.case-metric}
+[69,121]{.case-value}
+[cleaned records]{.case-label}
+:::
+::: {.case-metric}
+[47]{.case-value}
+[encoded predictors]{.case-label}
+:::
+::: {.case-metric}
+[$239,864]{.case-value}
+[best CV RMSE]{.case-label}
+:::
+:::
+
+**Business question**
+
+Which modeling approach best predicts assessed property values while balancing accuracy and a reproducible workflow?
+
+**Approach**
+
+- Compared Linear, LASSO, Ridge, Polynomial, KNN, Decision Tree, and Random Forest models.
+- Used pipelines, standardization, one-hot encoding, cross-validation, and RMSE for model selection.
+- Evaluated model performance consistently across competing approaches.
+
+**Evidence**
+
+Random Forest produced the strongest validation performance with cross-validation RMSE of approximately **$239,863.97**.
+
+::: {.badge-row}
+[Python]{.tech-badge}
+[scikit-learn]{.tech-badge}
+[Random Forest]{.tech-badge}
+[Cross-validation]{.tech-badge}
 :::
 :::
 
