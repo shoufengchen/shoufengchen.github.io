@@ -3,48 +3,35 @@ title: "Projects"
 page-layout: full
 ---
 
-[Selected work organized around the question a stakeholder would care about, the analytical approach used, and the evidence produced.]{.page-intro}
+::: {.projects-hero}
+[SELECTED WORK · 2024—2026]{.brand-line}
 
-::: {.project-grid}
+# Work built around decisions, not just deliverables.
 
-::: {.project-card}
-::: {.project-topline}
-[01]{.project-number}
-[AWS · PYSPARK · SPARK SQL]{.project-kicker}
+[Each project below starts with a stakeholder question, then shows the evidence, analytical approach, and business meaning behind the result.]{.projects-lead}
 :::
+
+::: {.project-gallery}
+
+::: {.project-feature}
+::: {.project-feature-cover .cover-data}
+[01]{.cover-index}
+[815,193]{.cover-number}
+[job postings]{.cover-label}
+:::
+
+::: {.project-feature-body}
+[CLOUD ANALYTICS]{.showcase-kicker}
 
 ### Employability Analytics
 
 [Boston University · AD688 · 2026]{.project-meta}
 
-::: {.case-metrics}
-::: {.case-metric}
-[815,193]{.case-value}
-[job postings]{.case-label}
-:::
-::: {.case-metric}
-[51,795]{.case-value}
-[companies]{.case-label}
-:::
-::: {.case-metric}
-[20]{.case-value}
-[Parquet files]{.case-label}
-:::
-:::
-
-**Business question**
-
+**Question**  
 How can large-scale job-market data be structured and analyzed to understand trends in data science and business analytics employment?
 
-**Approach**
-
-- Built distributed transformations, joins, aggregations, and reusable Spark DataFrame workflows.
-- Worked with job, company, industry, and location data in an AWS EC2 environment.
-- Extended the workflow toward feature engineering, model evaluation, and business reporting.
-
-**Evidence**
-
-A scalable analytics workflow operating on **815,193 job-posting records** rather than a small local sample.
+**Evidence**  
+815,193 job postings · 51,795 companies · 20 Parquet files.
 
 ::: {.badge-row}
 [PySpark]{.tech-badge}
@@ -53,150 +40,97 @@ A scalable analytics workflow operating on **815,193 job-posting records** rathe
 [Parquet]{.tech-badge}
 :::
 
-[View full case study →](ad688.html){.btn .btn-sm .btn-outline-primary}
+[Open case study →](ad688.html){.showcase-link}
+:::
 :::
 
-::: {.project-card}
-::: {.project-topline}
-[02]{.project-number}
-[STRATEGY · FINANCIAL MODELING]{.project-kicker}
+::: {.project-feature}
+::: {.project-feature-cover .cover-finance}
+[02]{.cover-index}
+[$150K]{.cover-number}
+[investment]{.cover-label}
 :::
+
+::: {.project-feature-body}
+[FINANCIAL STRATEGY]{.showcase-kicker}
 
 ### Microbrewery Investment Feasibility
 
 [Boston University · AD715 · 2026]{.project-meta}
 
-::: {.case-metrics}
-::: {.case-metric}
-[$150K]{.case-value}
-[investment]{.case-label}
-:::
-::: {.case-metric}
-[3-year]{.case-value}
-[forecast horizon]{.case-label}
-:::
-::: {.case-metric}
-[3]{.case-value}
-[strategy frameworks]{.case-label}
-:::
-:::
-
-**Business question**
-
+**Question**  
 Should a Boston restaurant invest in in-house craft beer production, and under what operating and market assumptions would the investment be viable?
 
-**Approach**
-
-- Applied PESTEL, Porter's Five Forces, SWOT, and market research.
-- Built financial and operating forecasts with break-even, ROI, payback, and sensitivity analysis.
-- Connected production capacity, demand, pricing, and strategic positioning to the investment decision.
-
-**Evidence**
-
-A structured go/no-go framework combining strategy, operations, and financial feasibility rather than relying on a single profitability metric.
+**Evidence**  
+Three-year operating forecast, break-even, ROI, payback, sensitivity analysis, and strategic market assessment.
 
 ::: {.badge-row}
 [Financial Modeling]{.tech-badge}
 [Strategy]{.tech-badge}
-[Sensitivity Analysis]{.tech-badge}
+[Operations]{.tech-badge}
 :::
 
-[View full AD715 case study →](ad715.html){.btn .btn-sm .btn-outline-primary}
+[Open case study →](ad715.html){.showcase-link}
+:::
 :::
 
-::: {.project-card}
-::: {.project-topline}
-[03]{.project-number}
-[PUBLISHED RESEARCH · CONSUMER BEHAVIOR]{.project-kicker}
+::: {.project-feature}
+::: {.project-feature-cover .cover-research}
+[03]{.cover-index}
+[2024]{.cover-number}
+[published]{.cover-label}
 :::
+
+::: {.project-feature-body}
+[PUBLISHED RESEARCH]{.showcase-kicker}
 
 ### POP MART Consumer Psychology
 
-[Journal of Education, Humanities and Social Sciences · 2024]{.project-meta}
+[Journal of Education, Humanities and Social Sciences · Vol. 43]{.project-meta}
 
-::: {.case-metrics}
-::: {.case-metric}
-[2024]{.case-value}
-[published]{.case-label}
-:::
-::: {.case-metric}
-[3]{.case-value}
-[theoretical lenses]{.case-label}
-:::
-::: {.case-metric}
-[43]{.case-value}
-[journal volume]{.case-label}
-:::
-:::
-
-**Research question**
-
+**Question**  
 What psychological and marketing mechanisms help explain blind-box purchasing behavior in the Chinese market?
 
-**Approach**
-
-- Applied Prospect Theory, Cognitive Dissonance Theory, and Maslow's Hierarchy of Needs.
-- Examined scarcity marketing, IP collaborations, social media, and community culture.
-- Connected consumer psychology to brand-growth and customer-engagement strategy.
-
-**Evidence**
-
-Peer-reviewed publication in *Journal of Education, Humanities and Social Sciences*, Volume 43, pages 128–133.
-
-[View DOI](https://doi.org/10.54097/135s5t77){.btn .btn-sm .btn-outline-primary}
-[View research case study →](research-popmart.html){.btn .btn-sm .btn-outline-primary}
+**Evidence**  
+Peer-reviewed research applying Prospect Theory, Cognitive Dissonance, and Maslow's Hierarchy of Needs.
 
 ::: {.badge-row}
-[Consumer Analytics]{.tech-badge}
+[Consumer Psychology]{.tech-badge}
 [Market Strategy]{.tech-badge}
 [Research]{.tech-badge}
 :::
+
+[Research case study →](research-popmart.html){.showcase-link}  
+[DOI ↗](https://doi.org/10.54097/135s5t77){.project-secondary-link}
+:::
 :::
 
-::: {.project-card}
-::: {.project-topline}
-[04]{.project-number}
-[MACHINE LEARNING · REAL ESTATE]{.project-kicker}
+::: {.project-feature}
+::: {.project-feature-cover .cover-ml}
+[04]{.cover-index}
+[$239.9K]{.cover-number}
+[best CV RMSE]{.cover-label}
 :::
+
+::: {.project-feature-body}
+[MACHINE LEARNING]{.showcase-kicker}
 
 ### Property Valuation Modeling
 
 [Boston University · AD599 · 2026]{.project-meta}
 
-::: {.case-metrics}
-::: {.case-metric}
-[69,121]{.case-value}
-[cleaned records]{.case-label}
-:::
-::: {.case-metric}
-[47]{.case-value}
-[encoded predictors]{.case-label}
-:::
-::: {.case-metric}
-[$239,864]{.case-value}
-[best CV RMSE]{.case-label}
-:::
-:::
-
-**Business question**
-
+**Question**  
 Which modeling approach best predicts assessed property values while balancing accuracy and a reproducible workflow?
 
-**Approach**
-
-- Compared Linear, LASSO, Ridge, Polynomial, KNN, Decision Tree, and Random Forest models.
-- Used pipelines, standardization, one-hot encoding, cross-validation, and RMSE for model selection.
-- Evaluated model performance consistently across competing approaches.
-
-**Evidence**
-
-Random Forest produced the strongest validation performance with cross-validation RMSE of approximately **$239,863.97**.
+**Evidence**  
+69,121 cleaned records · 47 encoded predictors · seven competing models · Random Forest best validation performance.
 
 ::: {.badge-row}
 [Python]{.tech-badge}
 [scikit-learn]{.tech-badge}
 [Random Forest]{.tech-badge}
 [Cross-validation]{.tech-badge}
+:::
 :::
 :::
 
