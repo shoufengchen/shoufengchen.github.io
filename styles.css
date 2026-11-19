@@ -1511,3 +1511,29 @@ main.content {
     min-height: 390px;
   }
 }
+
+
+/* Final polish after live visual QA */
+.hero-editorial .hero-actions .btn {
+  padding: .92rem 1.45rem;
+  font-size: .94rem;
+  font-weight: 820;
+}
+
+.cover-label,
+.showcase-finance .visual-small,
+.showcase-finance .visual-caption {
+  color: rgba(255,255,255,.86);
+}
+
+.project-feature-cover .cover-index {
+  color: rgba(255,255,255,.88);
+}
+
+.cover-research .cover-index {
+  color: #4f5f6e;
+}
+
+.navbar .nav-link:hover {
+  transform: translateY(-1px);
+}
