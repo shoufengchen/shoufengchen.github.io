@@ -2254,3 +2254,41 @@ main.content {
 .proof-item:nth-child(3) .proof-value {
   color: var(--editorial-ink);
 }
+
+
+/* Contact interest grid — keep each label in a true grid cell */
+.interest-band {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  width: 100%;
+}
+
+.interest-item {
+  min-width: 0;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
+
+.interest-item > p {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .interest-band {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .interest-band {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
